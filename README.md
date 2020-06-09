@@ -1,1 +1,0 @@
-# mayomacam.github.io
