@@ -24,7 +24,7 @@ a, h1, h2, h3 {
     padding: 10px; 
     text-align: center; 
     font-size: 2rem;
-    line-height: 2,
+    line-height: 2;
     font-weight: bold;
     color: #fff;
     text-decoration: none;
@@ -285,7 +285,7 @@ ul.social-buttons li a:hover {
         padding: 25px 0px 0px 0px;
     }
     ul.social-buttons {
-        margin: 25px 0px;
+        /*margin: 25px 0px;*/
     }
 }
 @media (max-width: 1024px) {
