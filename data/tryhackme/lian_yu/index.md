@@ -1,19 +1,14 @@
----
+```css
 title: "Tryhackme - LIan_yu"
 author: mayomacam
 date: "2020-06-14"
 subject: "CTF Writeup"
 keywords: [Tryhackme, CTF, Security]
-lang: "en"
-titlepage: true
-titlepage-text-color: "FFFFFF"
-titlepage-color: "0c0d0e"
-titlepage-rule-color: "8ac53e"
-logo: "./1.png"
+logo : url("/1.png")
 logo-width: 350
 toc: true
 toc-own-page: true
-...
+```
 
 Lian_yu is a beginner friendly enumeration challange on tryhackme. It's require more enumeration for foothold. 
 
