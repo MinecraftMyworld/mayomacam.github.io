@@ -1,0 +1,437 @@
+body {
+  font-family: 'Proza Libre', sans-serif !important;
+}
+
+a, h1, h2, h3 { 	
+	font-family: 'Proza Libre', sans-serif;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: black;
+    border-color: orangered;
+}
+.navbar-default .navbar-toggle:hover {
+    background-color: greenyellow;
+    border-color: green;
+}
+
+.scrollToTop{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px; 
+    height: 45px;
+    padding: 10px; 
+    text-align: center; 
+    font-size: 2rem;
+    line-height: 2,
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    display: none;
+    background-color: #f0a469;
+    border: none;
+    z-index: 99999;
+}
+.btn.btn-primary.btn-lg.scrollToTop{
+    text-decoration:none;
+    background-color: #ff2701;
+}
+.btn.btn-primary.btn-lg.scrollToTop:hover{
+    text-decoration:none;
+    background-color: #f83707;
+}
+
+
+/* --- Logo ---------------------------------------- */
+
+.container_logoskills{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top:0rem;
+    left:0rem;
+}
+.logo{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top:0rem;
+    float:right;
+    clear: both;
+}
+.Aman, .Kumar{
+    font-family: 'Proza Libre', sans-serif !important;
+    font-size:5rem;
+    text-align: left;
+    color: #9c9695;
+  }
+.Aman, .Maurya{
+  font-family: 'Proza Libre', sans-serif !important;
+  font-size:5rem;
+  text-align: left;
+  color: #9c9695;
+}
+.Maurya{
+  color: orangered;
+}
+@media (max-width: 2500px) {
+    .logo{
+        top:1rem;
+        left:40%;
+        /*background-color: green;*/
+    }
+}
+@media (max-width: 1200px) {
+    .logo{
+        top:0rem;
+        left:35%;
+        /*background-color: yellow;*/
+    }
+    .Aman, .Maurya{
+	  font-size:5rem;
+	}
+}
+@media (max-width: 995px) {
+    .logo{
+        top:0rem;
+        left:43%;
+        /*background-color: red;*/
+    }
+    .Aman, .Maurya{
+	  font-size:4.5rem;
+	}
+}
+@media (max-width: 480px) {
+	.logo{
+        top:0rem;
+        left:10%;
+        /*background-color: gray;*/
+    }
+	.Aman, .Maurya{
+	  font-size:3.5rem;
+	}
+}
+@media (max-width: 320px) {
+	.logo{
+        top:0rem;
+        left:8%;
+        /*background-color: blue;*/
+    }
+}
+
+/* --------------------------------------------------- */
+
+section h3.section-subheading { margin-bottom: 25px; }
+
+section{
+	padding: 90px 0px 50px 0px;
+}
+#about, #team{
+    padding: 110px 0px 50px 0px;
+}
+.ConceptBkg{
+	background-image: url(../img/ConceptBkg.jpg);
+	/*background-position: center center;*/
+	/*background-repeat: no-repeat;*/
+}
+.ConceptBkgDark{
+	background-image: url(../img/ConceptBkgDark.jpg);
+	/*background-position: center center;*/
+	/*background-repeat: no-repeat;*/
+}
+.ConceptBkgReviews{
+	background-image: url(../img/ConceptBkg2.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	/*background-color: #363636;*/
+}
+
+footer{
+	background-color: #0a0a0a!important;
+    padding-bottom:275px; 
+}
+
+/* ---  Fonts for Title and Texts -------------------------------------- */
+
+.gris5{ color: #313133; }
+.gris4{ color: #403f3d; }
+.gris3{ color: #7f7e7a; }
+.gris2{ color: #bfbcb8; }
+.gris1{ color: #fafafa; }
+
+.color5{ color: #070507; }
+.color4{ color: #180e15; }
+.color3{ color: #2d1e26; }
+.color2{ color: #f0a469; }
+.color1{ color: #f55b3f; }
+
+
+section h3.section-subheading.text-muted.near{
+    font-family: 'Proza Libre', sans-serif;
+	color: #bfbcb8;
+}
+
+
+/* --- VIDEO GALLERY ----------------------------------------------------- */
+
+.cbp-l-filters-alignRight .cbp-filter-item.cbp-filter-item-active {
+    color: #FFFFFF;
+    background-color: #f0a469;
+    border-color: #f76d02;
+    cursor: default;
+}
+
+.cbp-l-filters-alignRight .cbp-filter-counter {
+    background-color: #f76d02;
+}
+
+.cbp-l-filters-alignRight .cbp-filter-counter::after {
+    border-top: 4px solid #f76d02;
+}
+
+.cbp-l-filters-alignRight .cbp-filter-item {
+    border: 1px solid #f76d02;
+}
+/* --- Color white of filters on hover  ------------ */
+.cbp-l-filters-alignRight .cbp-filter-item:hover {
+	 border: 1px solid #f0a469;
+     background-color: #2d1e26;
+     color: #FFF;
+}
+
+/* --- Adjust the padding to Section Video Gallery ------------ */
+.bg-light-white.height, .bg-light-gray.height{
+	padding: 25px 0px 50px 0px;
+
+}
+
+/* --- Center the filters elements ---------------------------- */
+.cbp-l-filters-alignRight {
+    text-align: center;
+}
+
+/* --- Resize the height to de DIV for captions --------------- */
+.cbp-caption-overlayBottomAlong .cbp-caption-activeWrap {
+    height: 80px;
+}
+
+/* --- Reduce the padding top and bottom to the captions ----- */
+.cbp-l-caption-alignCenter .cbp-l-caption-body {
+    padding: 2px 0;
+}
+
+/* --------------------------------------------------------------------------- */
+
+section h3.section-subheading.text-muted.near{
+    margin-bottom: 15px;
+}
+
+section#contact .section-heading,
+section h2.section-heading, .service-heading {
+	  color: #f76d02;
+}
+
+.timeline-heading{
+	color: #fff;
+}
+
+.list-inline > li {
+    padding: 20px 20px 0px 20px;
+}
+
+ul.tech-buttons li a {
+	background-color: #313133;
+    color: #fff !important;
+}
+
+ul.tech-buttons li a:hover {
+   background-color: #fafafa !important;
+}
+
+ul.tech-buttons li a:hover,
+ul.tech-buttons li a:focus,
+ul.tech-buttons li a:active {
+  background-color: #fafafa;
+  color: #000 !important;
+}
+.text-primary {
+    color: #049372;
+}
+.text-primary:hover {
+    color: blue;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background-color: #049372;
+    background-color:rgba(4, 147, 114, 0.5)
+}
+
+.redes{
+	/*padding: 100px 0px 0px 0px;*/
+	color:#fff;
+}
+ul.social-buttons li a {
+    background-color: #f0a469;
+}
+ul.social-buttons li a:hover {
+    background-color: #f76d02;
+    color: #fff !important;
+}
+
+@media (max-width: 2048px) {
+    .redes {
+        padding: 25px 0px 0px 0px;
+    }
+    ul.social-buttons {
+        margin: 25px 0px;
+    }
+}
+@media (max-width: 1024px) {
+    .redes {
+        padding: 50px 0px 0px 0px;
+    }
+    ul.social-buttons {
+        margin: 50px 0px;
+    }
+}
+@media (max-width: 767px) {
+    .redes {
+        padding: 0px 0px 0px 0px;
+    }
+    ul.social-buttons {
+        margin: 0px 0px 30px 0px;
+    }
+}
+@media (max-width: 480px) {
+    .redes {
+        padding: 0px 0px 0px 0px;
+    }
+    ul.social-buttons {
+        margin: 0px 0px 20px 0px;
+    }
+    ul.social-buttons li a {
+        height: 60px;
+        width: 60px;
+        border-radius: 100%;
+        font-size: 24px;
+        line-height: 60px;
+    }
+    footer span.copyright {
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 320px) {
+    .redes {
+        padding: 0px 0px 0px 0px;
+    }
+    ul.social-buttons {
+        margin: 0px 0px 20px 0px;
+    }
+    ul.social-buttons li a {
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+        font-size: 20px;
+        line-height: 50px;
+    }
+    footer span.copyright {
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
+
+
+#portfolio .portfolio-item .portfolio-caption {
+    background-color: #943616;
+}
+#portfolio .portfolio-item .portfolio-caption h4 {
+    color: #fff;
+}
+
+
+.emailme, .skypeme{
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 6rem;
+    text-align: center;
+    color: #fff;
+    text-decoration:none;
+}
+.emailme:hover, .skypeme:hover{
+   color: #bfbcb8;
+}
+.skypeme{
+    font-size: 4rem;
+}
+
+@media (max-width: 1500px) {
+	.emailme{
+	    font-size: 6rem;
+	}
+	.skypeme{
+	    font-size: 4rem;
+	}
+}
+@media (max-width: 1024px) {
+	.emailme, .skypeme{
+	    font-size: 5rem;
+	}
+}
+@media (max-width: 767px) {
+	.emailme, .skypeme{
+	    font-size: 4rem;
+	}
+}
+@media (max-width: 480px) {
+	.emailme, .skypeme{
+	    font-size: 3rem;
+	}
+}
+@media (max-width: 320px) {
+	.emailme, .skypeme{
+	    font-size: 2.5rem;
+	}
+}
+
+
+.img-centered {
+  max-width: 100%;
+}
+
+.containerImg{
+	width: 18rem;
+	height: 12rem;
+	margin: 3px 3px 10px 0px;
+	/*background-color: red;*/
+}
+.separateTop{
+	margin-top: 25px;
+}
+
+@media (max-width: 480px) {
+	.containerImg{
+		width: 16rem;
+		height: 10rem;
+		margin: 2px 2px 7px 0px;
+		
+	}
+	.containerImg > img{
+  		max-width: 70%;
+	}
+
+}
+@media (max-width: 320px) {
+	.containerImg{
+		width: 14rem;
+		height: 8rem;
+		margin: 2px 1px 5px 0px;
+	}
+	.containerImg > img{
+  		max-width: 70%;
+	}
+}
