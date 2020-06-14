@@ -1,0 +1,3 @@
+load data local infile '../index.php'
+into table test
+fields terminated by "\n"

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Help us</title>
+	<style type="text/css">
+		@-webkit-keyframes blinking {
+			0%	 { background-color: #fff; }
+			49% { background-color: #fff; }
+			50% { background-color: #000; }
+			99% { background-color: #000; }
+			100% { background-color: #fff; }
+		}
+		@-moz-keyframes blinking {
+			0%	 { background-color: #fff; }
+			49% { background-color: #fff; }
+			50% { background-color: #000; }
+			99% { background-color: #000; }
+			100% { background-color: #fff; }
+		}
+		@keyframes blinking {
+			0%	 { background-color: #fff; }
+			49% { background-color: #fff; }
+			50% { background-color: #000; }
+			99% { background-color: #000; }
+			100% { background-color: #fff; }
+		}
+		body {
+			-webkit-animation: blinking 12.5s infinite;
+			-moz-animation: blinking 12.5s infinite;
+			animation: blinking 12.5s infinite;
+			color: red;
+		}
+		
+	</style>
+</head>
+<body>
+	<center>
+		<h1>This site has been owned</h1>
+		<h2>I have left a backdoor for all the net. FREE INTERNETZZZ</h2>
+		<h3> - Xh4H - </h3>
+		<!--Some of the best web shells that you might need ;)-->
+	</center>
+</body>
+</html>

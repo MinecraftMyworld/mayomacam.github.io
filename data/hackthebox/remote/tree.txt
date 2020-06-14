@@ -1,0 +1,2375 @@
+.
+├── App_Browsers
+│   ├── Form.browser
+│   └── w3cvalidator.browser
+├── App_Data
+│   ├── cache
+│   │   ├── 1
+│   │   │   └── 4
+│   │   │       └── 6
+│   │   │           └── 6
+│   │   │               └── f
+│   │   │                   └── 3
+│   │   │                       └── 1466f30ebb302412de97c279e0f1e3b3b29e7a97.jpg
+│   │   ├── 4
+│   │   │   └── 3
+│   │   │       └── 3
+│   │   │           └── 0
+│   │   │               └── 0
+│   │   │                   └── 9
+│   │   │                       └── 43300922ec12a7c7892edd7fdcb2176a80c6c71a.jpg
+│   │   ├── 5
+│   │   │   └── d
+│   │   │       └── 4
+│   │   │           └── 2
+│   │   │               └── 3
+│   │   │                   └── 4
+│   │   │                       └── 5d4234a6a324123f800c75da3adbb0b34df65c13.jpg
+│   │   ├── d
+│   │   │   ├── 5
+│   │   │   │   └── f
+│   │   │   │       └── 3
+│   │   │   │           └── 3
+│   │   │   │               └── 5
+│   │   │   │                   └── d5f335e41f44698abf6a413d6d86e069389358ef.jpg
+│   │   │   ├── 8
+│   │   │   │   └── 3
+│   │   │   │       └── a
+│   │   │   │           └── 3
+│   │   │   │               └── 8
+│   │   │   │                   └── d83a38c5a94ef9182d93b3af292cf05116d1e0d0.jpg
+│   │   │   └── b
+│   │   │       └── 3
+│   │   │           └── 1
+│   │   │               └── 7
+│   │   │                   └── b
+│   │   │                       └── db317b9a480eee2ec138bdd48ecac24ce0526d8c.jpg
+│   │   └── f
+│   │       └── 8
+│   │           └── 5
+│   │               └── 5
+│   │                   └── c
+│   │                       └── b
+│   │                           └── f855cb1d5c7be5549897d86ca092541287844c7c.jpg
+│   ├── Logs
+│   │   ├── UmbracoTraceLog.intranet.txt
+│   │   ├── UmbracoTraceLog.intranet.txt.2020-02-19
+│   │   └── UmbracoTraceLog.remote.txt
+│   ├── Models
+│   │   ├── all.dll.path
+│   │   ├── all.generated.cs
+│   │   ├── models.generated.cs
+│   │   └── models.hash
+│   ├── packages
+│   │   ├── created
+│   │   └── installed
+│   │       └── installedPackages.config
+│   ├── TEMP
+│   │   ├── ClientDependency
+│   │   │   ├── 1_0b717f5780a742b886e05f0ad35929fc.cdC
+│   │   │   ├── 1_4eb3cf5d6a4f446f9a242b5e494c9573.cdC
+│   │   │   ├── 1_83b5e77c905d4bf88e5e32986da50ae9.cdJ
+│   │   │   ├── 1_996ac4382000485d8b88c83c65b477aa.cdJ
+│   │   │   ├── 1_b9cd5b8c1d214b2fb5e671c8ebc2c497.cdJ
+│   │   │   ├── 1_d94d2d3b75014317a96abf4d8cece383.cdJ
+│   │   │   ├── INTRANET-f460d5c40691567c567e6423a4bd3ccd-map.xml
+│   │   │   └── REMOTE-f460d5c40691567c567e6423a4bd3ccd-map.xml
+│   │   ├── DistCache
+│   │   │   └── LMW3SVC1ROOT-lastsynced.txt
+│   │   ├── ExamineIndexes
+│   │   │   ├── External
+│   │   │   │   └── Index
+│   │   │   │       ├── _a_1.del
+│   │   │   │       ├── _a.fdt
+│   │   │   │       ├── _a.fdx
+│   │   │   │       ├── _a.fnm
+│   │   │   │       ├── _a.frq
+│   │   │   │       ├── _a.nrm
+│   │   │   │       ├── _a.prx
+│   │   │   │       ├── _a.tii
+│   │   │   │       ├── _a.tis
+│   │   │   │       ├── _a.tvd
+│   │   │   │       ├── _a.tvf
+│   │   │   │       ├── _a.tvx
+│   │   │   │       ├── _b.cfs
+│   │   │   │       ├── _c.cfs
+│   │   │   │       ├── segments_e
+│   │   │   │       └── segments.gen
+│   │   │   ├── Internal
+│   │   │   │   └── Index
+│   │   │   │       ├── _0.cfs
+│   │   │   │       ├── _1.cfs
+│   │   │   │       ├── _2.cfs
+│   │   │   │       ├── _3.cfs
+│   │   │   │       ├── _4.cfs
+│   │   │   │       ├── _5.cfs
+│   │   │   │       ├── _6.cfs
+│   │   │   │       ├── _7.cfs
+│   │   │   │       ├── _8.cfs
+│   │   │   │       ├── _a_2.del
+│   │   │   │       ├── _a.fdt
+│   │   │   │       ├── _a.fdx
+│   │   │   │       ├── _a.fnm
+│   │   │   │       ├── _a.frq
+│   │   │   │       ├── _a.nrm
+│   │   │   │       ├── _a.prx
+│   │   │   │       ├── _a.tii
+│   │   │   │       ├── _a.tis
+│   │   │   │       ├── _a.tvd
+│   │   │   │       ├── _a.tvf
+│   │   │   │       ├── _a.tvx
+│   │   │   │       ├── _b_1.del
+│   │   │   │       ├── _b.cfs
+│   │   │   │       ├── _c_1.del
+│   │   │   │       ├── _c.cfs
+│   │   │   │       ├── _d.cfs
+│   │   │   │       ├── _e_1.del
+│   │   │   │       ├── _e.cfs
+│   │   │   │       ├── segments_f
+│   │   │   │       └── segments.gen
+│   │   │   └── InternalMember
+│   │   │       └── Index
+│   │   │           ├── segments_1
+│   │   │           └── segments.gen
+│   │   ├── FileUploads
+│   │   │   └── BodyPart_09b7fcd6-410e-4172-8614-13d3c6af8316
+│   │   ├── Install
+│   │   └── PluginCache
+│   │       ├── umbraco-plugins.INTRANET.hash
+│   │       ├── umbraco-plugins.INTRANET.list
+│   │       ├── umbraco-plugins.REMOTE.hash
+│   │       └── umbraco-plugins.REMOTE.list
+│   ├── umbraco.config
+│   └── Umbraco.sdf
+├── App_Plugins
+│   ├── ModelsBuilder
+│   │   ├── modelsbuilder.controller.js
+│   │   ├── modelsbuilder.htm
+│   │   ├── modelsbuilder.resource.js
+│   │   └── package.manifest
+│   ├── StarterKit
+│   │   ├── backoffice
+│   │   │   └── tours
+│   │   │       ├── create-content.json
+│   │   │       └── data-structure.json
+│   │   ├── lessons.service.js
+│   │   ├── package.manifest
+│   │   ├── StarterKitHelp.Controller.js
+│   │   ├── starterkithelp.html
+│   │   └── tours
+│   │       └── views
+│   │           ├── medialibrary
+│   │           │   ├── uploadimages.controller.js
+│   │           │   └── uploadimages.html
+│   │           ├── validatetext.controller.js
+│   │           └── validatetext.html
+│   ├── Terratype
+│   │   ├── Css
+│   │   │   └── label.standard.css
+│   │   ├── Images
+│   │   │   └── Terratype.png
+│   │   ├── Lang
+│   │   │   └── en-us.xml
+│   │   ├── package.manifest
+│   │   ├── readme.txt
+│   │   ├── Scripts
+│   │   │   └── terratype.js
+│   │   └── Views
+│   │       ├── config.html
+│   │       ├── editor.html
+│   │       ├── grid.cshtml
+│   │       ├── grid.html
+│   │       ├── grid.overlay.html
+│   │       └── label.standard.html
+│   └── Terratype.GoogleMapsV3
+│       ├── Images
+│       │   ├── Example.png
+│       │   ├── Logo.png
+│       │   ├── m1.png
+│       │   ├── m2.png
+│       │   ├── m3.png
+│       │   ├── m4.png
+│       │   └── m5.png
+│       ├── Lang
+│       │   └── en-us.xml
+│       ├── readme.txt
+│       ├── Scripts
+│       │   ├── markerclusterer.js
+│       │   ├── markerclusterer.min.js
+│       │   ├── Terratype.GoogleMapsV3.js
+│       │   └── Terratype.GoogleMapsV3.Renderer.js
+│       └── Views
+│           ├── config.appearance.html
+│           ├── config.definition.html
+│           ├── config.search.html
+│           ├── editor.appearance.html
+│           └── grid.appearance.html
+├── aspnet_client
+│   └── system_web
+│       ├── 2_0_50727
+│       └── 4_0_30319
+├── bin
+│   ├── amd64
+│   │   ├── Microsoft.VC90.CRT
+│   │   │   ├── Microsoft.VC90.CRT.manifest
+│   │   │   ├── msvcr90.dll
+│   │   │   └── README_ENU.txt
+│   │   ├── sqlceca40.dll
+│   │   ├── sqlcecompact40.dll
+│   │   ├── sqlceer40EN.dll
+│   │   ├── sqlceme40.dll
+│   │   ├── sqlceqp40.dll
+│   │   └── sqlcese40.dll
+│   ├── AutoMapper.dll
+│   ├── AutoMapper.Net4.dll
+│   ├── AutoMapper.xml
+│   ├── businesslogic.dll
+│   ├── businesslogic.xml
+│   ├── ClientDependency.Core.dll
+│   ├── ClientDependency.Core.Mvc.dll
+│   ├── cms.dll
+│   ├── cms.xml
+│   ├── controls.dll
+│   ├── controls.xml
+│   ├── Examine.dll
+│   ├── HtmlAgilityPack.dll
+│   ├── HtmlAgilityPack.xml
+│   ├── ICSharpCode.SharpZipLib.dll
+│   ├── ImageProcessor.dll
+│   ├── ImageProcessor.Web.dll
+│   ├── ImageProcessor.Web.xml
+│   ├── ImageProcessor.xml
+│   ├── interfaces.dll
+│   ├── interfaces.xml
+│   ├── Log4Net.Async.dll
+│   ├── log4net.dll
+│   ├── log4net.xml
+│   ├── Lucene.Net.dll
+│   ├── Lucene.Net.xml
+│   ├── MarkdownSharp.dll
+│   ├── Microsoft.ApplicationBlocks.Data.dll
+│   ├── Microsoft.AspNet.Identity.Core.dll
+│   ├── Microsoft.AspNet.Identity.Core.xml
+│   ├── Microsoft.AspNet.Identity.Owin.dll
+│   ├── Microsoft.AspNet.Identity.Owin.xml
+│   ├── Microsoft.AspNet.SignalR.Core.dll
+│   ├── Microsoft.AspNet.SignalR.Core.xml
+│   ├── Microsoft.CodeAnalysis.CSharp.dll
+│   ├── Microsoft.CodeAnalysis.CSharp.xml
+│   ├── Microsoft.CodeAnalysis.dll
+│   ├── Microsoft.CodeAnalysis.xml
+│   ├── Microsoft.IO.RecyclableMemoryStream.dll
+│   ├── Microsoft.Owin.dll
+│   ├── Microsoft.Owin.Host.SystemWeb.dll
+│   ├── Microsoft.Owin.Host.SystemWeb.xml
+│   ├── Microsoft.Owin.Security.Cookies.dll
+│   ├── Microsoft.Owin.Security.Cookies.xml
+│   ├── Microsoft.Owin.Security.dll
+│   ├── Microsoft.Owin.Security.OAuth.dll
+│   ├── Microsoft.Owin.Security.OAuth.xml
+│   ├── Microsoft.Owin.Security.xml
+│   ├── Microsoft.Owin.xml
+│   ├── Microsoft.Web.Infrastructure.dll
+│   ├── MiniProfiler.dll
+│   ├── MiniProfiler.xml
+│   ├── MySql.Data.dll
+│   ├── Newtonsoft.Json.dll
+│   ├── Newtonsoft.Json.xml
+│   ├── Owin.dll
+│   ├── Semver.dll
+│   ├── SQLCE4Umbraco.dll
+│   ├── SQLCE4Umbraco.XML
+│   ├── System.Collections.Immutable.dll
+│   ├── System.Collections.Immutable.xml
+│   ├── System.Data.SqlServerCe.dll
+│   ├── System.Data.SqlServerCe.Entity.dll
+│   ├── System.Net.Http.Formatting.dll
+│   ├── System.Net.Http.Formatting.xml
+│   ├── System.Reflection.Metadata.dll
+│   ├── System.Reflection.Metadata.xml
+│   ├── System.Threading.Tasks.Dataflow.dll
+│   ├── System.Threading.Tasks.Dataflow.xml
+│   ├── System.ValueTuple.dll
+│   ├── System.ValueTuple.xml
+│   ├── System.Web.Helpers.dll
+│   ├── System.Web.Helpers.xml
+│   ├── System.Web.Http.dll
+│   ├── System.Web.Http.WebHost.dll
+│   ├── System.Web.Http.WebHost.xml
+│   ├── System.Web.Http.xml
+│   ├── System.Web.Mvc.dll
+│   ├── System.Web.Mvc.xml
+│   ├── System.Web.Razor.dll
+│   ├── System.Web.Razor.xml
+│   ├── System.Web.WebPages.Deployment.dll
+│   ├── System.Web.WebPages.Deployment.xml
+│   ├── System.Web.WebPages.dll
+│   ├── System.Web.WebPages.Razor.dll
+│   ├── System.Web.WebPages.Razor.xml
+│   ├── System.Web.WebPages.xml
+│   ├── Terratype.dll
+│   ├── Terratype.GoogleMapsV3.dll
+│   ├── TidyNet.dll
+│   ├── Umbraco.Core.dll
+│   ├── Umbraco.Core.xml
+│   ├── umbraco.DataLayer.dll
+│   ├── umbraco.DataLayer.xml
+│   ├── umbraco.dll
+│   ├── umbraco.editorControls.dll
+│   ├── umbraco.editorControls.xml
+│   ├── UmbracoExamine.dll
+│   ├── UmbracoExamine.XML
+│   ├── umbraco.MacroEngines.dll
+│   ├── umbraco.MacroEngines.xml
+│   ├── Umbraco.ModelsBuilder.dll
+│   ├── umbraco.providers.dll
+│   ├── umbraco.providers.xml
+│   ├── Umbraco.SampleSite.dll
+│   ├── Umbraco.Web.UI.dll
+│   ├── Umbraco.Web.UI.XML
+│   ├── umbraco.xml
+│   └── x86
+│       ├── Microsoft.VC90.CRT
+│       │   ├── Microsoft.VC90.CRT.manifest
+│       │   ├── msvcr90.dll
+│       │   └── README_ENU.txt
+│       ├── sqlceca40.dll
+│       ├── sqlcecompact40.dll
+│       ├── sqlceer40EN.dll
+│       ├── sqlceme40.dll
+│       ├── sqlceqp40.dll
+│       └── sqlcese40.dll
+├── Config
+│   ├── 404handlers.config
+│   ├── applications.config
+│   ├── BackOfficeTours
+│   │   └── getting-started.json
+│   ├── BaseRestExtensions.config
+│   ├── ClientDependency.config
+│   ├── Dashboard.config
+│   ├── EmbeddedMedia.config
+│   ├── ExamineIndex.config
+│   ├── ExamineSettings.config
+│   ├── feedProxy.config
+│   ├── FileSystemProviders.config
+│   ├── grid.editors.config.js
+│   ├── HealthChecks.config
+│   ├── imageprocessor
+│   │   ├── cache.config
+│   │   ├── processing.config
+│   │   └── security.config
+│   ├── Lang
+│   │   ├── cs-CZ.user.xml
+│   │   ├── da-DK.user.xml
+│   │   ├── de-DE.user.xml
+│   │   ├── en-GB.user.xml
+│   │   ├── en-US.user.xml
+│   │   ├── es-ES.user.xml
+│   │   ├── fr-FR.user.xml
+│   │   ├── he-IL.user.xml
+│   │   ├── it-IT.user.xml
+│   │   ├── ja-JP.user.xml
+│   │   ├── ko-KR.user.xml
+│   │   ├── nb-NO.user.xml
+│   │   ├── nl-NL.user.xml
+│   │   ├── pl-PL.user.xml
+│   │   ├── pt-BR.user.xml
+│   │   ├── ru-RU.user.xml
+│   │   ├── sv-SE.user.xml
+│   │   └── zh-CN.user.xml
+│   ├── log4net.config
+│   ├── metablogConfig.config
+│   ├── scripting.config
+│   ├── Splashes
+│   │   ├── booting.aspx
+│   │   └── noNodes.aspx
+│   ├── tinyMceConfig.config
+│   ├── trees.config
+│   └── umbracoSettings.config
+├── css
+│   └── umbraco-starterkit-style.css
+├── default.aspx
+├── Global.asax
+├── Media
+│   ├── 1001
+│   │   └── 4730684907_8a7f8759cb_b.jpg
+│   ├── 1002
+│   │   └── 18095416144_44a566a5f4_h.jpg
+│   ├── 1003
+│   │   └── 18531852339_981b067419_h.jpg
+│   ├── 1004
+│   │   └── 18531854019_351c579559_h.jpg
+│   ├── 1005
+│   │   └── 18530280048_459b8b61b2_h.jpg
+│   ├── 1006
+│   │   └── 18720470241_ff77768544_h.jpg
+│   ├── 1010
+│   │   └── 5852022091_87c5d045ab_b.jpg
+│   ├── 1011
+│   │   └── 5852022211_9028df67c0_b.jpg
+│   ├── 1012
+│   │   └── 7371127652_e01b6ab56f_b.jpg
+│   ├── 1013
+│   │   └── 7373036208_30257976a0_b.jpg
+│   ├── 1014
+│   │   └── 7373036290_5e8420bf36_b.jpg
+│   ├── 1015
+│   │   └── 7377957524_347859faac_b.jpg
+│   ├── 1016
+│   │   └── 14272036539_469ca21d5c_h.jpg
+│   ├── 1030
+│   │   └── 16403439029_f500be349b_o.jpg
+│   ├── 1031
+│   ├── 1032
+│   │   └── acme.jfif
+│   └── Web.config
+├── scripts
+│   └── umbraco-starterkit-app.js
+├── Umbraco
+│   ├── Actions
+│   │   ├── delete.aspx
+│   │   ├── editContent.aspx
+│   │   ├── preview.aspx
+│   │   └── publish.aspx
+│   ├── assets
+│   │   ├── css
+│   │   │   ├── canvasdesigner.css
+│   │   │   ├── installer.css
+│   │   │   ├── nonodes.style.min.css
+│   │   │   └── umbraco.css
+│   │   ├── fonts
+│   │   │   ├── helveticons
+│   │   │   │   ├── helveticons.eot
+│   │   │   │   ├── helveticons.svg
+│   │   │   │   ├── helveticons.ttf
+│   │   │   │   └── helveticons.woff
+│   │   │   ├── lato
+│   │   │   │   ├── LatoLatin-Black.eot
+│   │   │   │   ├── LatoLatin-BlackItalic.eot
+│   │   │   │   ├── LatoLatin-BlackItalic.ttf
+│   │   │   │   ├── LatoLatin-BlackItalic.woff
+│   │   │   │   ├── LatoLatin-BlackItalic.woff2
+│   │   │   │   ├── LatoLatin-Black.ttf
+│   │   │   │   ├── LatoLatin-Black.woff
+│   │   │   │   ├── LatoLatin-Black.woff2
+│   │   │   │   ├── LatoLatin-Bold.eot
+│   │   │   │   ├── LatoLatin-BoldItalic.eot
+│   │   │   │   ├── LatoLatin-BoldItalic.ttf
+│   │   │   │   ├── LatoLatin-BoldItalic.woff
+│   │   │   │   ├── LatoLatin-BoldItalic.woff2
+│   │   │   │   ├── LatoLatin-Bold.ttf
+│   │   │   │   ├── LatoLatin-Bold.woff
+│   │   │   │   ├── LatoLatin-Bold.woff2
+│   │   │   │   ├── LatoLatin-Italic.eot
+│   │   │   │   ├── LatoLatin-Italic.ttf
+│   │   │   │   ├── LatoLatin-Italic.woff
+│   │   │   │   ├── LatoLatin-Italic.woff2
+│   │   │   │   ├── LatoLatin-Light.eot
+│   │   │   │   ├── LatoLatin-LightItalic.eot
+│   │   │   │   ├── LatoLatin-LightItalic.ttf
+│   │   │   │   ├── LatoLatin-LightItalic.woff
+│   │   │   │   ├── LatoLatin-LightItalic.woff2
+│   │   │   │   ├── LatoLatin-Light.ttf
+│   │   │   │   ├── LatoLatin-Light.woff
+│   │   │   │   ├── LatoLatin-Light.woff2
+│   │   │   │   ├── LatoLatin-Regular.eot
+│   │   │   │   ├── LatoLatin-Regular.ttf
+│   │   │   │   ├── LatoLatin-Regular.woff
+│   │   │   │   └── LatoLatin-Regular.woff2
+│   │   │   └── opensans
+│   │   │       ├── OpenSans-Regular.ttf
+│   │   │       ├── OpenSans-Regular-webfont.eot
+│   │   │       ├── OpenSans-Regular-webfont.svg
+│   │   │       ├── OpenSans-Regular-webfont.ttf
+│   │   │       ├── OpenSans-Regular-webfont.woff
+│   │   │       ├── OpenSans-Semibold-webfont.eot
+│   │   │       ├── OpenSans-Semibold-webfont.svg
+│   │   │       ├── OpenSans-Semibold-webfont.ttf
+│   │   │       └── OpenSans-Semibold-webfont.woff
+│   │   ├── img
+│   │   │   ├── application
+│   │   │   │   ├── logo@2x.png
+│   │   │   │   ├── logo@3x.png
+│   │   │   │   ├── logo_black.png
+│   │   │   │   ├── logo.png
+│   │   │   │   └── logo_white.png
+│   │   │   ├── applicationIcons
+│   │   │   │   ├── content.png
+│   │   │   │   ├── default.png
+│   │   │   │   ├── developer.png
+│   │   │   │   ├── help.svg
+│   │   │   │   ├── hlvticons-umbraco.svg
+│   │   │   │   ├── media.png
+│   │   │   │   ├── members.png
+│   │   │   │   ├── search.png
+│   │   │   │   ├── settings.png
+│   │   │   │   ├── tree-arrow.png
+│   │   │   │   └── users.png
+│   │   │   ├── checkered-background-20.png
+│   │   │   ├── checkered-background.png
+│   │   │   ├── forms
+│   │   │   │   └── installer-background.png
+│   │   │   ├── installer.jpg
+│   │   │   ├── loader.gif
+│   │   │   ├── logo.png
+│   │   │   ├── nonodesbg.jpg
+│   │   │   ├── transparent.png
+│   │   │   └── uploader
+│   │   │       ├── upload-illustration.png
+│   │   │       └── upload-illustration.svg
+│   │   └── less
+│   │       ├── background.less
+│   │       ├── border.less
+│   │       ├── color.less
+│   │       ├── googlefontpicker.less
+│   │       ├── gridRow.less
+│   │       ├── layout.less
+│   │       ├── margin.less
+│   │       ├── padding.less
+│   │       ├── radius.less
+│   │       ├── shadow.less
+│   │       └── slider.less
+│   ├── ClientRedirect.aspx
+│   ├── Config
+│   │   ├── Create
+│   │   │   └── UI.xml
+│   │   └── Lang
+│   │       ├── cs.xml
+│   │       ├── da.xml
+│   │       ├── de.xml
+│   │       ├── en_us.xml
+│   │       ├── en.xml
+│   │       ├── es.xml
+│   │       ├── fr.xml
+│   │       ├── he.xml
+│   │       ├── it.xml
+│   │       ├── ja.xml
+│   │       ├── ko.xml
+│   │       ├── nb.xml
+│   │       ├── nl.xml
+│   │       ├── pl.xml
+│   │       ├── pt.xml
+│   │       ├── ru.xml
+│   │       ├── sv.xml
+│   │       ├── tr.xml
+│   │       ├── zh_tw.xml
+│   │       └── zh.xml
+│   ├── Controls
+│   │   ├── ProgressBar.ascx
+│   │   └── Tree
+│   │       ├── CustomTreeService.asmx
+│   │       └── TreeControl.ascx
+│   ├── Create
+│   │   ├── language.ascx
+│   │   ├── simple.ascx
+│   │   └── xslt.ascx
+│   ├── create.aspx
+│   ├── Dashboard
+│   │   ├── FeedProxy.aspx
+│   │   └── UserControlProxy.aspx
+│   ├── Developer
+│   │   ├── Macros
+│   │   │   ├── assemblyBrowser.aspx
+│   │   │   └── editMacro.aspx
+│   │   ├── Packages
+│   │   │   ├── directoryBrowser.aspx
+│   │   │   ├── editPackage.aspx
+│   │   │   └── installer.aspx
+│   │   ├── RelationTypes
+│   │   │   ├── EditRelationType.aspx
+│   │   │   ├── Images
+│   │   │   │   ├── Bidirectional.png
+│   │   │   │   ├── ParentToChild.png
+│   │   │   │   └── Refresh.gif
+│   │   │   ├── NewRelationType.aspx
+│   │   │   ├── RelationTypesWebService.asmx
+│   │   │   └── TreeMenu
+│   │   │       ├── ActionDeleteRelationType.js
+│   │   │       └── ActionNewRelationType.js
+│   │   └── Xslt
+│   │       ├── editXslt.aspx
+│   │       ├── getXsltStatus.asmx
+│   │       ├── xsltChooseExtension.aspx
+│   │       ├── xsltInsertValueOf.aspx
+│   │       └── xsltVisualize.aspx
+│   ├── Dialogs
+│   │   ├── AssignDomain2.aspx
+│   │   ├── ChangeDocType.aspx
+│   │   ├── create.aspx
+│   │   ├── EditMacro.aspx
+│   │   ├── empty.htm
+│   │   ├── exportDocumenttype.aspx
+│   │   ├── importDocumenttype.aspx
+│   │   ├── Preview.aspx
+│   │   ├── protectPage.aspx
+│   │   ├── publish.aspx
+│   │   ├── republish.aspx
+│   │   ├── rollBack.aspx
+│   │   ├── search.aspx
+│   │   ├── SendPublish.aspx
+│   │   ├── sendToTranslation.aspx
+│   │   ├── sort.aspx
+│   │   ├── treePicker.aspx
+│   │   ├── umbracoField.aspx
+│   │   └── viewAuditTrail.aspx
+│   ├── endPreview.aspx
+│   ├── Install
+│   │   └── Views
+│   │       ├── Index.cshtml
+│   │       └── Web.config
+│   ├── Js
+│   │   ├── app.dev.js
+│   │   ├── app.js
+│   │   ├── canvasdesigner.loader.js
+│   │   ├── dualSelectBox.js
+│   │   ├── guiFunctions.js
+│   │   ├── init.js
+│   │   ├── installer.app.js
+│   │   ├── install.loader.js
+│   │   ├── loader.dev.js
+│   │   ├── routes.js
+│   │   ├── umbraco.canvasdesigner.js
+│   │   ├── umbracoCheckKeys.js
+│   │   ├── umbraco.controllers.js
+│   │   ├── umbraco.directives.js
+│   │   ├── umbraco.filters.js
+│   │   ├── umbraco.installer.js
+│   │   ├── umbraco.resources.js
+│   │   ├── umbraco.security.js
+│   │   ├── umbraco.services.js
+│   │   ├── UmbracoSpeechBubbleBackEnd.js
+│   │   ├── UmbracoSpeechBubbleInit.js
+│   │   ├── UmbracoSpeechBubble.js
+│   │   ├── umbracoUpgradeChecker.js
+│   │   ├── web.config
+│   │   ├── xmlextras.js
+│   │   └── xmlRequest.js
+│   ├── lib
+│   │   ├── ace-builds
+│   │   │   └── src-min-noconflict
+│   │   │       ├── ace.js
+│   │   │       ├── ext-language_tools.js
+│   │   │       ├── ext-searchbox.js
+│   │   │       ├── ext-settings_menu.js
+│   │   │       ├── mode-javascript.js
+│   │   │       ├── mode-razor.js
+│   │   │       ├── snippets
+│   │   │       │   ├── javascript.js
+│   │   │       │   └── text.js
+│   │   │       ├── theme-chrome.js
+│   │   │       └── worker-javascript.js
+│   │   ├── ace-razor-mode
+│   │   │   └── theme
+│   │   │       └── razor_chrome.css
+│   │   ├── angular
+│   │   │   ├── 1.1.5
+│   │   │   │   ├── angular-cookies.js
+│   │   │   │   ├── angular-cookies.min.js
+│   │   │   │   ├── angular.js
+│   │   │   │   ├── angular-loader.js
+│   │   │   │   ├── angular-loader.min.js
+│   │   │   │   ├── angular.min.js
+│   │   │   │   ├── angular-mobile.js
+│   │   │   │   ├── angular-mobile.min.js
+│   │   │   │   ├── angular-mocks.js
+│   │   │   │   ├── angular-resource.js
+│   │   │   │   ├── angular-resource.min.js
+│   │   │   │   ├── angular-sanitize.js
+│   │   │   │   ├── angular-sanitize.min.js
+│   │   │   │   ├── angular-scenario.js
+│   │   │   │   └── i18n
+│   │   │   │       ├── angular-locale_af.js
+│   │   │   │       ├── angular-locale_af-na.js
+│   │   │   │       ├── angular-locale_af-za.js
+│   │   │   │       ├── angular-locale_am-et.js
+│   │   │   │       ├── angular-locale_am.js
+│   │   │   │       ├── angular-locale_ar-001.js
+│   │   │   │       ├── angular-locale_ar-ae.js
+│   │   │   │       ├── angular-locale_ar-bh.js
+│   │   │   │       ├── angular-locale_ar-dz.js
+│   │   │   │       ├── angular-locale_ar-eg.js
+│   │   │   │       ├── angular-locale_ar-iq.js
+│   │   │   │       ├── angular-locale_ar-jo.js
+│   │   │   │       ├── angular-locale_ar.js
+│   │   │   │       ├── angular-locale_ar-kw.js
+│   │   │   │       ├── angular-locale_ar-lb.js
+│   │   │   │       ├── angular-locale_ar-ly.js
+│   │   │   │       ├── angular-locale_ar-ma.js
+│   │   │   │       ├── angular-locale_ar-om.js
+│   │   │   │       ├── angular-locale_ar-qa.js
+│   │   │   │       ├── angular-locale_ar-sa.js
+│   │   │   │       ├── angular-locale_ar-sd.js
+│   │   │   │       ├── angular-locale_ar-sy.js
+│   │   │   │       ├── angular-locale_ar-tn.js
+│   │   │   │       ├── angular-locale_ar-ye.js
+│   │   │   │       ├── angular-locale_bg-bg.js
+│   │   │   │       ├── angular-locale_bg.js
+│   │   │   │       ├── angular-locale_bn-bd.js
+│   │   │   │       ├── angular-locale_bn-in.js
+│   │   │   │       ├── angular-locale_bn.js
+│   │   │   │       ├── angular-locale_ca-ad.js
+│   │   │   │       ├── angular-locale_ca-es.js
+│   │   │   │       ├── angular-locale_ca.js
+│   │   │   │       ├── angular-locale_chr.js
+│   │   │   │       ├── angular-locale_cs-cz.js
+│   │   │   │       ├── angular-locale_cs.js
+│   │   │   │       ├── angular-locale_cy.js
+│   │   │   │       ├── angular-locale_da-dk.js
+│   │   │   │       ├── angular-locale_da.js
+│   │   │   │       ├── angular-locale_de-at.js
+│   │   │   │       ├── angular-locale_de-be.js
+│   │   │   │       ├── angular-locale_de-ch.js
+│   │   │   │       ├── angular-locale_de-de.js
+│   │   │   │       ├── angular-locale_de.js
+│   │   │   │       ├── angular-locale_de-li.js
+│   │   │   │       ├── angular-locale_de-lu.js
+│   │   │   │       ├── angular-locale_el-cy.js
+│   │   │   │       ├── angular-locale_el-gr.js
+│   │   │   │       ├── angular-locale_el.js
+│   │   │   │       ├── angular-locale_el-polyton.js
+│   │   │   │       ├── angular-locale_en-as.js
+│   │   │   │       ├── angular-locale_en-au.js
+│   │   │   │       ├── angular-locale_en-bb.js
+│   │   │   │       ├── angular-locale_en-be.js
+│   │   │   │       ├── angular-locale_en-bm.js
+│   │   │   │       ├── angular-locale_en-bw.js
+│   │   │   │       ├── angular-locale_en-bz.js
+│   │   │   │       ├── angular-locale_en-ca.js
+│   │   │   │       ├── angular-locale_en-dsrt.js
+│   │   │   │       ├── angular-locale_en-dsrt-us.js
+│   │   │   │       ├── angular-locale_en-fm.js
+│   │   │   │       ├── angular-locale_en-gb.js
+│   │   │   │       ├── angular-locale_en-gu.js
+│   │   │   │       ├── angular-locale_en-gy.js
+│   │   │   │       ├── angular-locale_en-hk.js
+│   │   │   │       ├── angular-locale_en-ie.js
+│   │   │   │       ├── angular-locale_en-in.js
+│   │   │   │       ├── angular-locale_en-iso.js
+│   │   │   │       ├── angular-locale_en-jm.js
+│   │   │   │       ├── angular-locale_en.js
+│   │   │   │       ├── angular-locale_en-mh.js
+│   │   │   │       ├── angular-locale_en-mp.js
+│   │   │   │       ├── angular-locale_en-mt.js
+│   │   │   │       ├── angular-locale_en-mu.js
+│   │   │   │       ├── angular-locale_en-na.js
+│   │   │   │       ├── angular-locale_en-nz.js
+│   │   │   │       ├── angular-locale_en-ph.js
+│   │   │   │       ├── angular-locale_en-pk.js
+│   │   │   │       ├── angular-locale_en-pr.js
+│   │   │   │       ├── angular-locale_en-pw.js
+│   │   │   │       ├── angular-locale_en-sg.js
+│   │   │   │       ├── angular-locale_en-tc.js
+│   │   │   │       ├── angular-locale_en-tt.js
+│   │   │   │       ├── angular-locale_en-um.js
+│   │   │   │       ├── angular-locale_en-us.js
+│   │   │   │       ├── angular-locale_en-vg.js
+│   │   │   │       ├── angular-locale_en-vi.js
+│   │   │   │       ├── angular-locale_en-za.js
+│   │   │   │       ├── angular-locale_en-zw.js
+│   │   │   │       ├── angular-locale_en-zz.js
+│   │   │   │       ├── angular-locale_es-419.js
+│   │   │   │       ├── angular-locale_es-ar.js
+│   │   │   │       ├── angular-locale_es-bo.js
+│   │   │   │       ├── angular-locale_es-cl.js
+│   │   │   │       ├── angular-locale_es-co.js
+│   │   │   │       ├── angular-locale_es-cr.js
+│   │   │   │       ├── angular-locale_es-do.js
+│   │   │   │       ├── angular-locale_es-ea.js
+│   │   │   │       ├── angular-locale_es-ec.js
+│   │   │   │       ├── angular-locale_es-es.js
+│   │   │   │       ├── angular-locale_es-gq.js
+│   │   │   │       ├── angular-locale_es-gt.js
+│   │   │   │       ├── angular-locale_es-hn.js
+│   │   │   │       ├── angular-locale_es-ic.js
+│   │   │   │       ├── angular-locale_es.js
+│   │   │   │       ├── angular-locale_es-mx.js
+│   │   │   │       ├── angular-locale_es-ni.js
+│   │   │   │       ├── angular-locale_es-pa.js
+│   │   │   │       ├── angular-locale_es-pe.js
+│   │   │   │       ├── angular-locale_es-pr.js
+│   │   │   │       ├── angular-locale_es-py.js
+│   │   │   │       ├── angular-locale_es-sv.js
+│   │   │   │       ├── angular-locale_es-us.js
+│   │   │   │       ├── angular-locale_es-uy.js
+│   │   │   │       ├── angular-locale_es-ve.js
+│   │   │   │       ├── angular-locale_et-ee.js
+│   │   │   │       ├── angular-locale_et.js
+│   │   │   │       ├── angular-locale_eu-es.js
+│   │   │   │       ├── angular-locale_eu.js
+│   │   │   │       ├── angular-locale_fa-af.js
+│   │   │   │       ├── angular-locale_fa-ir.js
+│   │   │   │       ├── angular-locale_fa.js
+│   │   │   │       ├── angular-locale_fi-fi.js
+│   │   │   │       ├── angular-locale_fi.js
+│   │   │   │       ├── angular-locale_fil.js
+│   │   │   │       ├── angular-locale_fil-ph.js
+│   │   │   │       ├── angular-locale_fr-be.js
+│   │   │   │       ├── angular-locale_fr-bf.js
+│   │   │   │       ├── angular-locale_fr-bi.js
+│   │   │   │       ├── angular-locale_fr-bj.js
+│   │   │   │       ├── angular-locale_fr-bl.js
+│   │   │   │       ├── angular-locale_fr-ca.js
+│   │   │   │       ├── angular-locale_fr-cd.js
+│   │   │   │       ├── angular-locale_fr-cf.js
+│   │   │   │       ├── angular-locale_fr-cg.js
+│   │   │   │       ├── angular-locale_fr-ch.js
+│   │   │   │       ├── angular-locale_fr-ci.js
+│   │   │   │       ├── angular-locale_fr-cm.js
+│   │   │   │       ├── angular-locale_fr-dj.js
+│   │   │   │       ├── angular-locale_fr-fr.js
+│   │   │   │       ├── angular-locale_fr-ga.js
+│   │   │   │       ├── angular-locale_fr-gf.js
+│   │   │   │       ├── angular-locale_fr-gn.js
+│   │   │   │       ├── angular-locale_fr-gp.js
+│   │   │   │       ├── angular-locale_fr-gq.js
+│   │   │   │       ├── angular-locale_fr.js
+│   │   │   │       ├── angular-locale_fr-km.js
+│   │   │   │       ├── angular-locale_fr-lu.js
+│   │   │   │       ├── angular-locale_fr-mc.js
+│   │   │   │       ├── angular-locale_fr-mf.js
+│   │   │   │       ├── angular-locale_fr-mg.js
+│   │   │   │       ├── angular-locale_fr-ml.js
+│   │   │   │       ├── angular-locale_fr-mq.js
+│   │   │   │       ├── angular-locale_fr-ne.js
+│   │   │   │       ├── angular-locale_fr-re.js
+│   │   │   │       ├── angular-locale_fr-rw.js
+│   │   │   │       ├── angular-locale_fr-sn.js
+│   │   │   │       ├── angular-locale_fr-td.js
+│   │   │   │       ├── angular-locale_fr-tg.js
+│   │   │   │       ├── angular-locale_fr-yt.js
+│   │   │   │       ├── angular-locale_gl-es.js
+│   │   │   │       ├── angular-locale_gl.js
+│   │   │   │       ├── angular-locale_gsw-ch.js
+│   │   │   │       ├── angular-locale_gsw.js
+│   │   │   │       ├── angular-locale_gu-in.js
+│   │   │   │       ├── angular-locale_gu.js
+│   │   │   │       ├── angular-locale_haw.js
+│   │   │   │       ├── angular-locale_he-il.js
+│   │   │   │       ├── angular-locale_he.js
+│   │   │   │       ├── angular-locale_hi-in.js
+│   │   │   │       ├── angular-locale_hi.js
+│   │   │   │       ├── angular-locale_hr-hr.js
+│   │   │   │       ├── angular-locale_hr.js
+│   │   │   │       ├── angular-locale_hu-hu.js
+│   │   │   │       ├── angular-locale_hu.js
+│   │   │   │       ├── angular-locale_id-id.js
+│   │   │   │       ├── angular-locale_id.js
+│   │   │   │       ├── angular-locale_in.js
+│   │   │   │       ├── angular-locale_is-is.js
+│   │   │   │       ├── angular-locale_is.js
+│   │   │   │       ├── angular-locale_it-ch.js
+│   │   │   │       ├── angular-locale_it-it.js
+│   │   │   │       ├── angular-locale_it.js
+│   │   │   │       ├── angular-locale_it-sm.js
+│   │   │   │       ├── angular-locale_iw.js
+│   │   │   │       ├── angular-locale_ja-jp.js
+│   │   │   │       ├── angular-locale_ja.js
+│   │   │   │       ├── angular-locale_kn-in.js
+│   │   │   │       ├── angular-locale_kn.js
+│   │   │   │       ├── angular-locale_ko.js
+│   │   │   │       ├── angular-locale_ko-kr.js
+│   │   │   │       ├── angular-locale_ln-cd.js
+│   │   │   │       ├── angular-locale_ln-cg.js
+│   │   │   │       ├── angular-locale_ln.js
+│   │   │   │       ├── angular-locale_lt.js
+│   │   │   │       ├── angular-locale_lt-lt.js
+│   │   │   │       ├── angular-locale_lv.js
+│   │   │   │       ├── angular-locale_lv-lv.js
+│   │   │   │       ├── angular-locale_ml-in.js
+│   │   │   │       ├── angular-locale_ml.js
+│   │   │   │       ├── angular-locale_mo.js
+│   │   │   │       ├── angular-locale_mr-in.js
+│   │   │   │       ├── angular-locale_mr.js
+│   │   │   │       ├── angular-locale_ms-bn.js
+│   │   │   │       ├── angular-locale_ms.js
+│   │   │   │       ├── angular-locale_ms-my.js
+│   │   │   │       ├── angular-locale_mt.js
+│   │   │   │       ├── angular-locale_mt-mt.js
+│   │   │   │       ├── angular-locale_nl-aw.js
+│   │   │   │       ├── angular-locale_nl-be.js
+│   │   │   │       ├── angular-locale_nl-cw.js
+│   │   │   │       ├── angular-locale_nl.js
+│   │   │   │       ├── angular-locale_nl-nl.js
+│   │   │   │       ├── angular-locale_nl-sx.js
+│   │   │   │       ├── angular-locale_no.js
+│   │   │   │       ├── angular-locale_or-in.js
+│   │   │   │       ├── angular-locale_or.js
+│   │   │   │       ├── angular-locale_pl.js
+│   │   │   │       ├── angular-locale_pl-pl.js
+│   │   │   │       ├── angular-locale_pt-ao.js
+│   │   │   │       ├── angular-locale_pt-br.js
+│   │   │   │       ├── angular-locale_pt-gw.js
+│   │   │   │       ├── angular-locale_pt.js
+│   │   │   │       ├── angular-locale_pt-mz.js
+│   │   │   │       ├── angular-locale_pt-pt.js
+│   │   │   │       ├── angular-locale_pt-st.js
+│   │   │   │       ├── angular-locale_ro.js
+│   │   │   │       ├── angular-locale_ro-md.js
+│   │   │   │       ├── angular-locale_ro-ro.js
+│   │   │   │       ├── angular-locale_ru.js
+│   │   │   │       ├── angular-locale_ru-md.js
+│   │   │   │       ├── angular-locale_ru-ru.js
+│   │   │   │       ├── angular-locale_ru-ua.js
+│   │   │   │       ├── angular-locale_sk.js
+│   │   │   │       ├── angular-locale_sk-sk.js
+│   │   │   │       ├── angular-locale_sl.js
+│   │   │   │       ├── angular-locale_sl-si.js
+│   │   │   │       ├── angular-locale_sq-al.js
+│   │   │   │       ├── angular-locale_sq.js
+│   │   │   │       ├── angular-locale_sr-cyrl-ba.js
+│   │   │   │       ├── angular-locale_sr-cyrl.js
+│   │   │   │       ├── angular-locale_sr-cyrl-me.js
+│   │   │   │       ├── angular-locale_sr-cyrl-rs.js
+│   │   │   │       ├── angular-locale_sr.js
+│   │   │   │       ├── angular-locale_sr-latn-ba.js
+│   │   │   │       ├── angular-locale_sr-latn.js
+│   │   │   │       ├── angular-locale_sr-latn-me.js
+│   │   │   │       ├── angular-locale_sr-latn-rs.js
+│   │   │   │       ├── angular-locale_sr-rs.js
+│   │   │   │       ├── angular-locale_sv-fi.js
+│   │   │   │       ├── angular-locale_sv.js
+│   │   │   │       ├── angular-locale_sv-se.js
+│   │   │   │       ├── angular-locale_sw.js
+│   │   │   │       ├── angular-locale_sw-ke.js
+│   │   │   │       ├── angular-locale_sw-tz.js
+│   │   │   │       ├── angular-locale_ta-in.js
+│   │   │   │       ├── angular-locale_ta.js
+│   │   │   │       ├── angular-locale_ta-lk.js
+│   │   │   │       ├── angular-locale_te-in.js
+│   │   │   │       ├── angular-locale_te.js
+│   │   │   │       ├── angular-locale_th.js
+│   │   │   │       ├── angular-locale_th-th.js
+│   │   │   │       ├── angular-locale_tl.js
+│   │   │   │       ├── angular-locale_tl-ph.js
+│   │   │   │       ├── angular-locale_tr.js
+│   │   │   │       ├── angular-locale_tr-tr.js
+│   │   │   │       ├── angular-locale_uk.js
+│   │   │   │       ├── angular-locale_uk-ua.js
+│   │   │   │       ├── angular-locale_ur-in.js
+│   │   │   │       ├── angular-locale_ur.js
+│   │   │   │       ├── angular-locale_ur-pk.js
+│   │   │   │       ├── angular-locale_vi.js
+│   │   │   │       ├── angular-locale_vi-vn.js
+│   │   │   │       ├── angular-locale_zh-cn.js
+│   │   │   │       ├── angular-locale_zh-hans-cn.js
+│   │   │   │       ├── angular-locale_zh-hans-hk.js
+│   │   │   │       ├── angular-locale_zh-hans.js
+│   │   │   │       ├── angular-locale_zh-hans-mo.js
+│   │   │   │       ├── angular-locale_zh-hans-sg.js
+│   │   │   │       ├── angular-locale_zh-hant-hk.js
+│   │   │   │       ├── angular-locale_zh-hant.js
+│   │   │   │       ├── angular-locale_zh-hant-mo.js
+│   │   │   │       ├── angular-locale_zh-hant-tw.js
+│   │   │   │       ├── angular-locale_zh-hk.js
+│   │   │   │       ├── angular-locale_zh.js
+│   │   │   │       ├── angular-locale_zh-tw.js
+│   │   │   │       ├── angular-locale_zu.js
+│   │   │   │       └── angular-locale_zu-za.js
+│   │   │   └── angular-ui-sortable.js
+│   │   ├── angular-bootstrap
+│   │   │   └── ui-bootstrap-tpls-0.10.0.min.js
+│   │   ├── angular-dynamic-locale
+│   │   │   ├── tmhDynamicLocale.min.js
+│   │   │   └── tmhDynamicLocale.min.js.map
+│   │   ├── angular-local-storage
+│   │   │   ├── angular-local-storage.min.js
+│   │   │   └── angular-local-storage.min.js.map
+│   │   ├── bootstrap
+│   │   │   ├── css
+│   │   │   │   ├── bootstrap.cosmo.min.css
+│   │   │   │   ├── bootstrap.css
+│   │   │   │   ├── bootstrap.min.3.0.1.css
+│   │   │   │   ├── bootstrap.min.css
+│   │   │   │   ├── bootstrap-responsive.css
+│   │   │   │   ├── bootstrap-responsive.min.css
+│   │   │   │   └── responsive.css
+│   │   │   ├── img
+│   │   │   │   ├── glyphicons-halflings.png
+│   │   │   │   └── glyphicons-halflings-white.png
+│   │   │   ├── js
+│   │   │   │   ├── bootstrap.2.3.2.js
+│   │   │   │   └── bootstrap.2.3.2.min.js
+│   │   │   └── less
+│   │   │       ├── accordion.less
+│   │   │       ├── alerts.less
+│   │   │       ├── bootstrap.less
+│   │   │       ├── breadcrumbs.less
+│   │   │       ├── button-groups.less
+│   │   │       ├── buttons.less
+│   │   │       ├── carousel.less
+│   │   │       ├── close.less
+│   │   │       ├── code.less
+│   │   │       ├── component-animations.less
+│   │   │       ├── dropdowns.less
+│   │   │       ├── forms.less
+│   │   │       ├── grid.less
+│   │   │       ├── hero-unit.less
+│   │   │       ├── labels-badges.less
+│   │   │       ├── layouts.less
+│   │   │       ├── media.less
+│   │   │       ├── mixins.less
+│   │   │       ├── modals.less
+│   │   │       ├── navbar.less
+│   │   │       ├── navs.less
+│   │   │       ├── pager.less
+│   │   │       ├── pagination.less
+│   │   │       ├── popovers.less
+│   │   │       ├── progress-bars.less
+│   │   │       ├── reset.less
+│   │   │       ├── responsive-1200px-min.less
+│   │   │       ├── responsive-767px-max.less
+│   │   │       ├── responsive-768px-979px.less
+│   │   │       ├── responsive.less
+│   │   │       ├── responsive-navbar.less
+│   │   │       ├── responsive-utilities.less
+│   │   │       ├── scaffolding.less
+│   │   │       ├── sprites.less
+│   │   │       ├── tables.less
+│   │   │       ├── tests
+│   │   │       │   ├── buttons.html
+│   │   │       │   ├── css-tests.css
+│   │   │       │   ├── css-tests.html
+│   │   │       │   ├── forms.html
+│   │   │       │   ├── forms-responsive.html
+│   │   │       │   ├── navbar-fixed-top.html
+│   │   │       │   ├── navbar.html
+│   │   │       │   └── navbar-static-top.html
+│   │   │       ├── thumbnails.less
+│   │   │       ├── tooltip.less
+│   │   │       ├── type.less
+│   │   │       ├── utilities.less
+│   │   │       ├── variables.less
+│   │   │       └── wells.less
+│   │   ├── bootstrap-social
+│   │   │   └── bootstrap-social.css
+│   │   ├── bootstrap-tabdrop
+│   │   │   ├── bootstrap-tabdrop.js
+│   │   │   └── README.md
+│   │   ├── clipboard
+│   │   │   └── clipboard.min.js
+│   │   ├── codemirror
+│   │   │   ├── addon
+│   │   │   │   ├── dialog
+│   │   │   │   │   ├── dialog.css
+│   │   │   │   │   └── dialog.js
+│   │   │   │   ├── edit
+│   │   │   │   │   ├── closebrackets.js
+│   │   │   │   │   ├── closetag.js
+│   │   │   │   │   ├── continuelist.js
+│   │   │   │   │   ├── matchbrackets.js
+│   │   │   │   │   ├── matchtags.js
+│   │   │   │   │   └── trailingspace.js
+│   │   │   │   ├── search
+│   │   │   │   │   ├── matchesonscrollbar.css
+│   │   │   │   │   ├── matchesonscrollbar.js
+│   │   │   │   │   ├── match-highlighter.js
+│   │   │   │   │   ├── searchcursor.js
+│   │   │   │   │   └── search.js
+│   │   │   │   └── selection
+│   │   │   │       ├── active-line.js
+│   │   │   │       ├── mark-selection.js
+│   │   │   │       └── selection-pointer.js
+│   │   │   ├── lib
+│   │   │   │   ├── codemirror.css
+│   │   │   │   └── codemirror.js
+│   │   │   └── mode
+│   │   │       ├── css
+│   │   │       │   └── css.js
+│   │   │       ├── htmlmixed
+│   │   │       │   └── htmlmixed.js
+│   │   │       ├── javascript
+│   │   │       │   └── javascript.js
+│   │   │       ├── razor
+│   │   │       │   ├── index.html
+│   │   │       │   ├── LICENSE
+│   │   │       │   └── razor.js
+│   │   │       └── xml
+│   │   │           └── xml.js
+│   │   ├── cssparser
+│   │   │   └── cssparser.js
+│   │   ├── datetimepicker
+│   │   │   ├── bootstrap-datetimepicker.js
+│   │   │   └── bootstrap-datetimepicker.min.css
+│   │   ├── font-awesome
+│   │   │   ├── css
+│   │   │   │   └── font-awesome.min.css
+│   │   │   └── fonts
+│   │   │       ├── FontAwesome.otf
+│   │   │       ├── fontawesome-webfont.eot
+│   │   │       ├── fontawesome-webfont.svg
+│   │   │       ├── fontawesome-webfont.ttf
+│   │   │       └── fontawesome-webfont.woff
+│   │   ├── jquery
+│   │   │   ├── jquery.min.js
+│   │   │   └── jquery.min.map
+│   │   ├── jquery-migrate
+│   │   │   └── jquery-migrate.min.js
+│   │   ├── jquery-ui
+│   │   │   ├── jquery-ui-1.10.4.custom.min.css
+│   │   │   └── jquery-ui.min.js
+│   │   ├── jquery-ui-touch-punch
+│   │   │   └── jquery.ui.touch-punch.js
+│   │   ├── less
+│   │   │   └── less-1.7.0.min.js
+│   │   ├── markdown
+│   │   │   ├── markdown.converter.js
+│   │   │   ├── markdown.css
+│   │   │   ├── markdown.editor.js
+│   │   │   ├── markdown.sanitizer.js
+│   │   │   └── red.css
+│   │   ├── moment
+│   │   │   ├── af.js
+│   │   │   ├── ar.js
+│   │   │   ├── ar-ma.js
+│   │   │   ├── ar-sa.js
+│   │   │   ├── ar-tn.js
+│   │   │   ├── az.js
+│   │   │   ├── be.js
+│   │   │   ├── bg.js
+│   │   │   ├── bn.js
+│   │   │   ├── bo.js
+│   │   │   ├── br.js
+│   │   │   ├── bs.js
+│   │   │   ├── ca.js
+│   │   │   ├── cs.js
+│   │   │   ├── cv.js
+│   │   │   ├── cy.js
+│   │   │   ├── da.js
+│   │   │   ├── de-at.js
+│   │   │   ├── de.js
+│   │   │   ├── el.js
+│   │   │   ├── en-au.js
+│   │   │   ├── en-ca.js
+│   │   │   ├── en-gb.js
+│   │   │   ├── eo.js
+│   │   │   ├── es.js
+│   │   │   ├── et.js
+│   │   │   ├── eu.js
+│   │   │   ├── fa.js
+│   │   │   ├── fi.js
+│   │   │   ├── fo.js
+│   │   │   ├── fr-ca.js
+│   │   │   ├── fr.js
+│   │   │   ├── fy.js
+│   │   │   ├── gl.js
+│   │   │   ├── he.js
+│   │   │   ├── hi.js
+│   │   │   ├── hr.js
+│   │   │   ├── hu.js
+│   │   │   ├── hy-am.js
+│   │   │   ├── id.js
+│   │   │   ├── is.js
+│   │   │   ├── it.js
+│   │   │   ├── ja.js
+│   │   │   ├── jv.js
+│   │   │   ├── ka.js
+│   │   │   ├── km.js
+│   │   │   ├── ko.js
+│   │   │   ├── lb.js
+│   │   │   ├── lt.js
+│   │   │   ├── lv.js
+│   │   │   ├── me.js
+│   │   │   ├── mk.js
+│   │   │   ├── ml.js
+│   │   │   ├── moment.min.js
+│   │   │   ├── moment-with-locales.js
+│   │   │   ├── moment-with-locales.min.js
+│   │   │   ├── mr.js
+│   │   │   ├── ms.js
+│   │   │   ├── ms-my.js
+│   │   │   ├── my.js
+│   │   │   ├── nb.js
+│   │   │   ├── ne.js
+│   │   │   ├── nl.js
+│   │   │   ├── nn.js
+│   │   │   ├── pl.js
+│   │   │   ├── pt-br.js
+│   │   │   ├── pt.js
+│   │   │   ├── ro.js
+│   │   │   ├── ru.js
+│   │   │   ├── si.js
+│   │   │   ├── sk.js
+│   │   │   ├── sl.js
+│   │   │   ├── sq.js
+│   │   │   ├── sr-cyrl.js
+│   │   │   ├── sr.js
+│   │   │   ├── sv.js
+│   │   │   ├── ta.js
+│   │   │   ├── th.js
+│   │   │   ├── tl-ph.js
+│   │   │   ├── tr.js
+│   │   │   ├── tzl.js
+│   │   │   ├── tzm.js
+│   │   │   ├── tzm-latn.js
+│   │   │   ├── uk.js
+│   │   │   ├── uz.js
+│   │   │   ├── vi.js
+│   │   │   ├── zh-cn.js
+│   │   │   └── zh-tw.js
+│   │   ├── ng-file-upload
+│   │   │   └── ng-file-upload.min.js
+│   │   ├── rgrove-lazyload
+│   │   │   └── lazyload.js
+│   │   ├── slider
+│   │   │   ├── bootstrap-slider.css
+│   │   │   ├── bootstrap-slider-custom.css
+│   │   │   └── js
+│   │   │       └── bootstrap-slider.js
+│   │   ├── spectrum
+│   │   │   ├── spectrum.css
+│   │   │   └── spectrum.js
+│   │   ├── tinymce
+│   │   │   ├── langs
+│   │   │   │   ├── da.js
+│   │   │   │   ├── de.js
+│   │   │   │   ├── en.js
+│   │   │   │   ├── en_us.js
+│   │   │   │   ├── fi.js
+│   │   │   │   ├── fr.js
+│   │   │   │   ├── he.js
+│   │   │   │   ├── it.js
+│   │   │   │   ├── ja.js
+│   │   │   │   ├── nl.js
+│   │   │   │   ├── no.js
+│   │   │   │   ├── pl.js
+│   │   │   │   ├── pt.js
+│   │   │   │   ├── ru.js
+│   │   │   │   ├── sv.js
+│   │   │   │   └── zh.js
+│   │   │   ├── plugins
+│   │   │   │   ├── advlist
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── anchor
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── autolink
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── autoresize
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── autosave
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── bbcode
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── charmap
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── code
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── codemirror
+│   │   │   │   │   ├── langs
+│   │   │   │   │   │   ├── da.js
+│   │   │   │   │   │   ├── de.js
+│   │   │   │   │   │   ├── en.js
+│   │   │   │   │   │   ├── en_us.js
+│   │   │   │   │   │   ├── fi.js
+│   │   │   │   │   │   ├── fr.js
+│   │   │   │   │   │   ├── he.js
+│   │   │   │   │   │   ├── it.js
+│   │   │   │   │   │   ├── ja.js
+│   │   │   │   │   │   ├── nl.js
+│   │   │   │   │   │   ├── no.js
+│   │   │   │   │   │   ├── pl.js
+│   │   │   │   │   │   ├── pt.js
+│   │   │   │   │   │   ├── ru.js
+│   │   │   │   │   │   ├── sv.js
+│   │   │   │   │   │   └── zh.js
+│   │   │   │   │   ├── plugin.min.js
+│   │   │   │   │   └── source.html
+│   │   │   │   ├── codesample
+│   │   │   │   │   ├── css
+│   │   │   │   │   │   └── prism.css
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── colorpicker
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── contextmenu
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── directionality
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── emoticons
+│   │   │   │   │   ├── img
+│   │   │   │   │   │   ├── smiley-cool.gif
+│   │   │   │   │   │   ├── smiley-cry.gif
+│   │   │   │   │   │   ├── smiley-embarassed.gif
+│   │   │   │   │   │   ├── smiley-foot-in-mouth.gif
+│   │   │   │   │   │   ├── smiley-frown.gif
+│   │   │   │   │   │   ├── smiley-innocent.gif
+│   │   │   │   │   │   ├── smiley-kiss.gif
+│   │   │   │   │   │   ├── smiley-laughing.gif
+│   │   │   │   │   │   ├── smiley-money-mouth.gif
+│   │   │   │   │   │   ├── smiley-sealed.gif
+│   │   │   │   │   │   ├── smiley-smile.gif
+│   │   │   │   │   │   ├── smiley-surprised.gif
+│   │   │   │   │   │   ├── smiley-tongue-out.gif
+│   │   │   │   │   │   ├── smiley-undecided.gif
+│   │   │   │   │   │   ├── smiley-wink.gif
+│   │   │   │   │   │   └── smiley-yell.gif
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── fullpage
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── fullscreen
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── help
+│   │   │   │   │   ├── img
+│   │   │   │   │   │   └── logo.png
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── hr
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── image
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── imagetools
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── importcss
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── insertdatetime
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── legacyoutput
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── link
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── lists
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── media
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── nonbreaking
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── noneditable
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── pagebreak
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── paste
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── preview
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── print
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── save
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── searchreplace
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── spellchecker
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── tabfocus
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── table
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── template
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── textcolor
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── textpattern
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── toc
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── visualblocks
+│   │   │   │   │   ├── css
+│   │   │   │   │   │   └── visualblocks.css
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   ├── visualchars
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── plugin.js
+│   │   │   │   │   └── plugin.min.js
+│   │   │   │   └── wordcount
+│   │   │   │       ├── index.js
+│   │   │   │       ├── plugin.js
+│   │   │   │       └── plugin.min.js
+│   │   │   ├── skins
+│   │   │   │   └── umbraco
+│   │   │   │       ├── content.min.css
+│   │   │   │       ├── fonts
+│   │   │   │       │   ├── readme.md
+│   │   │   │       │   ├── tinymce.eot
+│   │   │   │       │   ├── tinymce-small.eot
+│   │   │   │       │   ├── tinymce-small.svg
+│   │   │   │       │   ├── tinymce-small.ttf
+│   │   │   │       │   ├── tinymce-small.woff
+│   │   │   │       │   ├── tinymce.svg
+│   │   │   │       │   ├── tinymce.ttf
+│   │   │   │       │   └── tinymce.woff
+│   │   │   │       ├── img
+│   │   │   │       │   ├── anchor.gif
+│   │   │   │       │   ├── loader.gif
+│   │   │   │       │   ├── object.gif
+│   │   │   │       │   ├── trans.gif
+│   │   │   │       │   └── wline.gif
+│   │   │   │       ├── skin.classic.min.css
+│   │   │   │       ├── skin.ie7.min.css
+│   │   │   │       └── skin.min.css
+│   │   │   ├── themes
+│   │   │   │   ├── inlite
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── theme.js
+│   │   │   │   │   └── theme.min.js
+│   │   │   │   ├── mobile
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── theme.js
+│   │   │   │   │   └── theme.min.js
+│   │   │   │   ├── modern
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── theme.js
+│   │   │   │   │   └── theme.min.js
+│   │   │   │   └── umbraco
+│   │   │   │       └── theme.min.js
+│   │   │   └── tinymce.min.js
+│   │   ├── typeahead.js
+│   │   │   └── typeahead.bundle.min.js
+│   │   ├── umbraco
+│   │   │   ├── compat.js
+│   │   │   ├── Extensions.js
+│   │   │   ├── LegacySpeechBubble.js
+│   │   │   ├── LegacyUmbClientMgr.js
+│   │   │   └── NamespaceManager.js
+│   │   └── underscore
+│   │       ├── underscore-min.js
+│   │       └── underscore-min.map
+│   ├── Logout.aspx
+│   ├── macroResultWrapper.aspx
+│   ├── Masterpages
+│   │   ├── default.Master
+│   │   ├── umbracoDialog.Master
+│   │   └── umbracoPage.Master
+│   ├── Members
+│   │   ├── EditMemberGroup.aspx
+│   │   ├── MemberSearch.ascx
+│   │   ├── search.aspx
+│   │   └── ViewMembers.aspx
+│   ├── PartialViewMacros
+│   │   └── Templates
+│   │       ├── Breadcrumb.cshtml
+│   │       ├── EditProfile.cshtml
+│   │       ├── Empty.cshtml
+│   │       ├── Empty (ForUseWithCustomViews).cshtml
+│   │       ├── Gallery.cshtml
+│   │       ├── ListAncestorsFromCurrentPage.cshtml
+│   │       ├── ListChildPagesFromChangeableSource.cshtml
+│   │       ├── ListChildPagesFromCurrentPage.cshtml
+│   │       ├── ListChildPagesOrderedByDate.cshtml
+│   │       ├── ListChildPagesOrderedByName.cshtml
+│   │       ├── ListChildPagesOrderedByProperty.cshtml
+│   │       ├── ListChildPagesWithDoctype.cshtml
+│   │       ├── ListDescendantsFromCurrentPage.cshtml
+│   │       ├── ListImagesFromMediaFolder.cshtml
+│   │       ├── Login.cshtml
+│   │       ├── LoginStatus.cshtml
+│   │       ├── MultinodeTree-picker.cshtml
+│   │       ├── Navigation.cshtml
+│   │       ├── RegisterMember.cshtml
+│   │       └── SiteMap.cshtml
+│   ├── ping.aspx
+│   ├── Plugins
+│   │   └── Tinymce3
+│   │       └── tinymce3tinymceCompress.aspx
+│   ├── publishStatus.aspx
+│   ├── Search
+│   │   ├── QuickSearch.ascx
+│   │   ├── QuickSearchHandler.ashx
+│   │   └── quickSearch.js
+│   ├── Settings
+│   │   ├── DictionaryItemList.aspx
+│   │   ├── EditDictionaryItem.aspx
+│   │   ├── editLanguage.aspx
+│   │   ├── Modals
+│   │   │   └── ShowUmbracoTags.aspx
+│   │   └── Stylesheet
+│   │       ├── editstylesheet.aspx
+│   │       └── Property
+│   │           └── EditStyleSheetProperty.aspx
+│   ├── Translation
+│   │   ├── default.aspx
+│   │   ├── details.aspx
+│   │   ├── preview.aspx
+│   │   ├── translationTasks.dtd
+│   │   └── xml.aspx
+│   ├── tree.aspx
+│   ├── treeInit.aspx
+│   ├── umbraco.aspx
+│   ├── Views
+│   │   ├── AuthorizeUpgrade.cshtml
+│   │   ├── common
+│   │   │   ├── dashboard.html
+│   │   │   ├── dialogs
+│   │   │   │   ├── approvedcolorpicker.html
+│   │   │   │   ├── content
+│   │   │   │   │   └── edit.html
+│   │   │   │   ├── help.html
+│   │   │   │   ├── iconpicker.html
+│   │   │   │   ├── insertmacro.html
+│   │   │   │   ├── legacydelete.html
+│   │   │   │   ├── linkpicker.html
+│   │   │   │   ├── login.html
+│   │   │   │   ├── macropicker.html
+│   │   │   │   ├── mediapicker.html
+│   │   │   │   ├── membergrouppicker.html
+│   │   │   │   ├── property.html
+│   │   │   │   ├── rteembed.html
+│   │   │   │   ├── template
+│   │   │   │   │   ├── querybuilder.html
+│   │   │   │   │   └── snippet.html
+│   │   │   │   ├── treepicker.html
+│   │   │   │   ├── user.html
+│   │   │   │   └── ysod.html
+│   │   │   ├── drawers
+│   │   │   │   └── help
+│   │   │   │       └── help.html
+│   │   │   ├── legacy.html
+│   │   │   ├── login.html
+│   │   │   ├── notifications
+│   │   │   │   ├── confirmroutechange.html
+│   │   │   │   └── confirmunpublish.html
+│   │   │   ├── overlays
+│   │   │   │   ├── contentpicker
+│   │   │   │   │   └── contentpicker.html
+│   │   │   │   ├── contenttypeeditor
+│   │   │   │   │   ├── compositions
+│   │   │   │   │   │   └── compositions.html
+│   │   │   │   │   ├── editorpicker
+│   │   │   │   │   │   └── editorpicker.html
+│   │   │   │   │   ├── editorsettings
+│   │   │   │   │   │   └── editorsettings.html
+│   │   │   │   │   └── propertysettings
+│   │   │   │   │       └── propertysettings.html
+│   │   │   │   ├── copy
+│   │   │   │   │   └── copy.html
+│   │   │   │   ├── embed
+│   │   │   │   │   └── embed.html
+│   │   │   │   ├── help
+│   │   │   │   │   └── help.html
+│   │   │   │   ├── iconpicker
+│   │   │   │   │   └── iconpicker.html
+│   │   │   │   ├── insert
+│   │   │   │   │   └── insert.html
+│   │   │   │   ├── insertfield
+│   │   │   │   │   └── insertfield.html
+│   │   │   │   ├── itempicker
+│   │   │   │   │   └── itempicker.html
+│   │   │   │   ├── linkpicker
+│   │   │   │   │   └── linkpicker.html
+│   │   │   │   ├── macropicker
+│   │   │   │   │   └── macropicker.html
+│   │   │   │   ├── mediaPicker
+│   │   │   │   │   └── mediapicker.html
+│   │   │   │   ├── mediatypepicker
+│   │   │   │   │   └── mediatypepicker.html
+│   │   │   │   ├── membergrouppicker
+│   │   │   │   │   └── membergrouppicker.html
+│   │   │   │   ├── memberpicker
+│   │   │   │   │   └── memberpicker.html
+│   │   │   │   ├── move
+│   │   │   │   │   └── move.html
+│   │   │   │   ├── nodepermissions
+│   │   │   │   │   └── nodepermissions.html
+│   │   │   │   ├── querybuilder
+│   │   │   │   │   └── querybuilder.html
+│   │   │   │   ├── sectionpicker
+│   │   │   │   │   └── sectionpicker.html
+│   │   │   │   ├── templatesections
+│   │   │   │   │   └── templatesections.html
+│   │   │   │   ├── treepicker
+│   │   │   │   │   └── treepicker.html
+│   │   │   │   ├── user
+│   │   │   │   │   └── user.html
+│   │   │   │   ├── usergrouppicker
+│   │   │   │   │   └── usergrouppicker.html
+│   │   │   │   ├── userpicker
+│   │   │   │   │   └── userpicker.html
+│   │   │   │   └── ysod
+│   │   │   │       └── ysod.html
+│   │   │   └── tours
+│   │   │       ├── umbintrocreatecontent
+│   │   │       │   └── nodename
+│   │   │       │       └── nodename.html
+│   │   │       ├── umbintrocreatedoctype
+│   │   │       │   ├── doctypename
+│   │   │       │   │   └── doctypename.html
+│   │   │       │   ├── propertyname
+│   │   │       │   │   └── propertyname.html
+│   │   │       │   └── tabname
+│   │   │       │       └── tabname.html
+│   │   │       ├── umbintromediasection
+│   │   │       │   ├── foldername
+│   │   │       │   │   └── foldername.html
+│   │   │       │   └── uploadimages
+│   │   │       │       └── uploadimages.html
+│   │   │       └── umbintrorenderintemplate
+│   │   │           └── templatetree
+│   │   │               └── templatetree.html
+│   │   ├── components
+│   │   │   ├── application
+│   │   │   │   ├── umb-backdrop.html
+│   │   │   │   ├── umb-contextmenu.html
+│   │   │   │   ├── umbdrawer
+│   │   │   │   │   ├── umb-drawer-content.html
+│   │   │   │   │   ├── umb-drawer-footer.html
+│   │   │   │   │   ├── umb-drawer-header.html
+│   │   │   │   │   ├── umb-drawer.html
+│   │   │   │   │   └── umb-drawer-view.html
+│   │   │   │   ├── umb-navigation.html
+│   │   │   │   ├── umb-sections.html
+│   │   │   │   ├── umbtour
+│   │   │   │   │   ├── umb-tour-step-content.html
+│   │   │   │   │   ├── umb-tour-step-counter.html
+│   │   │   │   │   ├── umb-tour-step-footer.html
+│   │   │   │   │   ├── umb-tour-step-header.html
+│   │   │   │   │   └── umb-tour-step.html
+│   │   │   │   └── umb-tour.html
+│   │   │   ├── buttons
+│   │   │   │   ├── umb-button-group.html
+│   │   │   │   ├── umb-button.html
+│   │   │   │   └── umb-toggle.html
+│   │   │   ├── content
+│   │   │   │   ├── edit.html
+│   │   │   │   └── umb-content-node-info.html
+│   │   │   ├── editor
+│   │   │   │   ├── subheader
+│   │   │   │   │   ├── umb-editor-sub-header-content-left.html
+│   │   │   │   │   ├── umb-editor-sub-header-content-right.html
+│   │   │   │   │   ├── umb-editor-sub-header.html
+│   │   │   │   │   └── umb-editor-sub-header-section.html
+│   │   │   │   ├── umb-breadcrumbs.html
+│   │   │   │   ├── umb-editor-container.html
+│   │   │   │   ├── umb-editor-footer-content-left.html
+│   │   │   │   ├── umb-editor-footer-content-right.html
+│   │   │   │   ├── umb-editor-footer.html
+│   │   │   │   ├── umb-editor-header.html
+│   │   │   │   ├── umb-editor-menu.html
+│   │   │   │   ├── umb-editor-navigation.html
+│   │   │   │   ├── umb-editor-sub-views.html
+│   │   │   │   └── umb-editor-view.html
+│   │   │   ├── html
+│   │   │   │   ├── umb-box
+│   │   │   │   │   ├── umb-box-content.html
+│   │   │   │   │   ├── umb-box-header.html
+│   │   │   │   │   └── umb-box.html
+│   │   │   │   ├── umb-control-group.html
+│   │   │   │   ├── umb-pane.html
+│   │   │   │   └── umb-panel.html
+│   │   │   ├── imaging
+│   │   │   │   ├── umb-image-crop.html
+│   │   │   │   ├── umb-image-gravity.html
+│   │   │   │   └── umb-image-thumbnail.html
+│   │   │   ├── media
+│   │   │   │   └── umb-media-node-info.html
+│   │   │   ├── notifications
+│   │   │   │   └── umb-notifications.html
+│   │   │   ├── overlays
+│   │   │   │   ├── umb-overlay-backdrop.html
+│   │   │   │   └── umb-overlay.html
+│   │   │   ├── property
+│   │   │   │   ├── umb-property-editor.html
+│   │   │   │   ├── umb-property-group.html
+│   │   │   │   └── umb-property.html
+│   │   │   ├── tabs
+│   │   │   │   ├── umb-tab.html
+│   │   │   │   ├── umb-tabs-content.html
+│   │   │   │   └── umb-tabs-nav.html
+│   │   │   ├── tree
+│   │   │   │   ├── umb-tree-search-box.html
+│   │   │   │   └── umb-tree-search-results.html
+│   │   │   ├── umb-avatar.html
+│   │   │   ├── umb-badge.html
+│   │   │   ├── umb-checkmark.html
+│   │   │   ├── umb-child-selector.html
+│   │   │   ├── umb-color-swatches.html
+│   │   │   ├── umb-confirm-action.html
+│   │   │   ├── umb-confirm.html
+│   │   │   ├── umb-content-grid.html
+│   │   │   ├── umb-date-time-picker.html
+│   │   │   ├── umb-dropdown.html
+│   │   │   ├── umb-dropdown-item.html
+│   │   │   ├── umb-empty-state.html
+│   │   │   ├── umb-folder-grid.html
+│   │   │   ├── umb-generate-alias.html
+│   │   │   ├── umb-grid-selector.html
+│   │   │   ├── umb-groups-builder.html
+│   │   │   ├── umb-keyboard-shortcuts-overview.html
+│   │   │   ├── umb-layout-selector.html
+│   │   │   ├── umb-lightbox.html
+│   │   │   ├── umb-list-view-layout.html
+│   │   │   ├── umb-list-view-settings.html
+│   │   │   ├── umb-load-indicator.html
+│   │   │   ├── umb-locked-field.html
+│   │   │   ├── umb-media-grid.html
+│   │   │   ├── umb-mini-list-view.html
+│   │   │   ├── umb-node-preview.html
+│   │   │   ├── umb-pagination.html
+│   │   │   ├── umb-progress-bar.html
+│   │   │   ├── umb-progress-circle.html
+│   │   │   ├── umb-table.html
+│   │   │   ├── umb-tooltip.html
+│   │   │   ├── upload
+│   │   │   │   └── umb-file-dropzone.html
+│   │   │   └── users
+│   │   │       ├── change-password.html
+│   │   │       ├── umb-permission.html
+│   │   │       ├── umb-user-group-preview.html
+│   │   │       └── umb-user-preview.html
+│   │   ├── content
+│   │   │   ├── copy.html
+│   │   │   ├── createblueprint.html
+│   │   │   ├── create.html
+│   │   │   ├── delete.html
+│   │   │   ├── edit.html
+│   │   │   ├── emptyrecyclebin.html
+│   │   │   ├── move.html
+│   │   │   ├── notify.html
+│   │   │   ├── recyclebin.html
+│   │   │   ├── restore.html
+│   │   │   ├── rights.html
+│   │   │   └── umbpreview.html
+│   │   ├── contentblueprints
+│   │   │   ├── create.html
+│   │   │   ├── delete.html
+│   │   │   ├── edit.html
+│   │   │   └── intro.html
+│   │   ├── dashboard
+│   │   │   ├── ChangePassword.html
+│   │   │   ├── default
+│   │   │   │   ├── ourumbraco.jpg
+│   │   │   │   ├── StartupDashboardIntro.html
+│   │   │   │   ├── StartupDashboardKits.html
+│   │   │   │   ├── StartupDashboardLastEdits.html
+│   │   │   │   ├── StartupDashboardVideos.html
+│   │   │   │   └── umbracotv.jpg
+│   │   │   ├── developer
+│   │   │   │   ├── developerdashboardintro.html
+│   │   │   │   ├── developerdashboardvideos.html
+│   │   │   │   ├── examinemanagement.html
+│   │   │   │   ├── healthcheck.html
+│   │   │   │   ├── redirecturls.html
+│   │   │   │   └── xmldataintegrityreport.html
+│   │   │   ├── forms
+│   │   │   │   └── formsdashboardintro.html
+│   │   │   ├── media
+│   │   │   │   ├── desktopmediauploader.html
+│   │   │   │   ├── mediadashboardintro.html
+│   │   │   │   ├── mediadashboardvideos.html
+│   │   │   │   └── mediafolderbrowser.html
+│   │   │   ├── members
+│   │   │   │   ├── membersdashboardintro.html
+│   │   │   │   └── membersdashboardvideos.html
+│   │   │   └── settings
+│   │   │       ├── settingsdashboardintro.html
+│   │   │       └── settingsdashboardvideos.html
+│   │   ├── datatypes
+│   │   │   ├── create.html
+│   │   │   ├── delete.html
+│   │   │   ├── edit.html
+│   │   │   ├── move.html
+│   │   │   └── rename.html
+│   │   ├── Default.cshtml
+│   │   ├── dictionary
+│   │   │   ├── create.html
+│   │   │   ├── delete.html
+│   │   │   ├── edit.html
+│   │   │   └── list.html
+│   │   ├── directives
+│   │   │   └── _obsolete
+│   │   │       ├── umb-content-name.html
+│   │   │       ├── umb-header.html
+│   │   │       ├── umb-item-sorter.html
+│   │   │       ├── umb-login.html
+│   │   │       ├── umb-optionsmenu.html
+│   │   │       ├── umb-photo-folder.html
+│   │   │       ├── umb-tab-view.html
+│   │   │       └── umb-upload-dropzone.html
+│   │   ├── documenttypes
+│   │   │   ├── copy.html
+│   │   │   ├── create.html
+│   │   │   ├── delete.html
+│   │   │   ├── edit.html
+│   │   │   ├── move.html
+│   │   │   ├── propertygroup.html
+│   │   │   ├── property.html
+│   │   │   ├── rename.html
+│   │   │   └── views
+│   │   │       ├── design
+│   │   │       │   └── design.html
+│   │   │       ├── listview
+│   │   │       │   └── listview.html
+│   │   │       ├── permissions
+│   │   │       │   └── permissions.html
+│   │   │       └── templates
+│   │   │           └── templates.html
+│   │   ├── install
+│   │   │   ├── continueinstall.html
+│   │   │   ├── database.html
+│   │   │   ├── error.html
+│   │   │   ├── machinekey.html
+│   │   │   ├── permissionsreport.html
+│   │   │   ├── starterkit.html
+│   │   │   ├── upgrade.html
+│   │   │   ├── user.html
+│   │   │   └── version7upgradereport.html
+│   │   ├── media
+│   │   │   ├── create.html
+│   │   │   ├── delete.html
+│   │   │   ├── edit.html
+│   │   │   ├── emptyrecyclebin.html
+│   │   │   ├── move.html
+│   │   │   ├── recyclebin.html
+│   │   │   └── restore.html
+│   │   ├── mediatypes
+│   │   │   ├── copy.html
+│   │   │   ├── create.html
+│   │   │   ├── delete.html
+│   │   │   ├── edit.html
+│   │   │   ├── move.html
+│   │   │   ├── rename.html
+│   │   │   └── views
+│   │   │       ├── design
+│   │   │       │   └── design.html
+│   │   │       ├── listview
+│   │   │       │   └── listview.html
+│   │   │       └── permissions
+│   │   │           └── permissions.html
+│   │   ├── member
+│   │   │   ├── create.html
+│   │   │   ├── delete.html
+│   │   │   ├── edit.html
+│   │   │   └── list.html
+│   │   ├── membertypes
+│   │   │   ├── create.html
+│   │   │   ├── delete.html
+│   │   │   ├── edit.html
+│   │   │   ├── move.html
+│   │   │   └── views
+│   │   │       └── design
+│   │   │           └── design.html
+│   │   ├── packager
+│   │   │   ├── delete.html
+│   │   │   ├── overview.html
+│   │   │   └── views
+│   │   │       ├── installed.html
+│   │   │       ├── install-local.html
+│   │   │       └── repo.html
+│   │   ├── partialviewmacros
+│   │   │   ├── create.html
+│   │   │   ├── delete.html
+│   │   │   └── edit.html
+│   │   ├── partialviews
+│   │   │   ├── create.html
+│   │   │   ├── delete.html
+│   │   │   └── edit.html
+│   │   ├── prevalueeditors
+│   │   │   ├── boolean.html
+│   │   │   ├── decimal.html
+│   │   │   ├── hidden.html
+│   │   │   ├── imagepicker.html
+│   │   │   ├── mediapicker.html
+│   │   │   ├── multivalues.html
+│   │   │   ├── nodetype.html
+│   │   │   ├── number.html
+│   │   │   ├── radiobuttonlist.html
+│   │   │   ├── readonlykeyvalues.html
+│   │   │   ├── requiredfield.html
+│   │   │   ├── textarea.html
+│   │   │   ├── textstring.html
+│   │   │   ├── textstringlimited.html
+│   │   │   ├── treepicker.html
+│   │   │   ├── treesource.html
+│   │   │   └── valuetype.html
+│   │   ├── Preview
+│   │   │   ├── Background.cshtml
+│   │   │   ├── Border.cshtml
+│   │   │   ├── Color.cshtml
+│   │   │   ├── Googlefontpicker.cshtml
+│   │   │   ├── GridRow.cshtml
+│   │   │   ├── Index.cshtml
+│   │   │   ├── Layout.cshtml
+│   │   │   ├── Margin.cshtml
+│   │   │   ├── Padding.cshtml
+│   │   │   ├── Radius.cshtml
+│   │   │   ├── Shadow.cshtml
+│   │   │   ├── Slider.cshtml
+│   │   │   └── web.config
+│   │   ├── propertyeditors
+│   │   │   ├── boolean
+│   │   │   │   └── boolean.html
+│   │   │   ├── changepassword
+│   │   │   │   └── changepassword.html
+│   │   │   ├── checkboxlist
+│   │   │   │   └── checkboxlist.html
+│   │   │   ├── colorpicker
+│   │   │   │   ├── colorpicker.html
+│   │   │   │   └── colorpicker.prevalues.html
+│   │   │   ├── contentpicker
+│   │   │   │   └── contentpicker.html
+│   │   │   ├── datepicker
+│   │   │   │   └── datepicker.html
+│   │   │   ├── decimal
+│   │   │   │   └── decimal.html
+│   │   │   ├── dropdown
+│   │   │   │   └── dropdown.html
+│   │   │   ├── dropdownFlexible
+│   │   │   │   └── dropdownFlexible.html
+│   │   │   ├── email
+│   │   │   │   └── email.html
+│   │   │   ├── entitypicker
+│   │   │   │   └── entitypicker.html
+│   │   │   ├── fileupload
+│   │   │   │   └── fileupload.html
+│   │   │   ├── folderbrowser
+│   │   │   │   └── folderbrowser.html
+│   │   │   ├── googlemaps
+│   │   │   │   └── googlemaps.html
+│   │   │   ├── grid
+│   │   │   │   ├── config
+│   │   │   │   │   ├── grid.default.config.js
+│   │   │   │   │   └── grid.default.rtestyles.css
+│   │   │   │   ├── dialogs
+│   │   │   │   │   ├── config.html
+│   │   │   │   │   ├── editconfig.html
+│   │   │   │   │   ├── layoutconfig.html
+│   │   │   │   │   ├── rowconfig.html
+│   │   │   │   │   └── rowdeleteconfirm.html
+│   │   │   │   ├── editors
+│   │   │   │   │   ├── embed.html
+│   │   │   │   │   ├── error.html
+│   │   │   │   │   ├── macro.html
+│   │   │   │   │   ├── media.html
+│   │   │   │   │   ├── rte.html
+│   │   │   │   │   └── textstring.html
+│   │   │   │   ├── grid.html
+│   │   │   │   └── grid.prevalues.html
+│   │   │   ├── imagecropper
+│   │   │   │   ├── imagecropper.html
+│   │   │   │   └── imagecropper.prevalues.html
+│   │   │   ├── integer
+│   │   │   │   └── integer.html
+│   │   │   ├── listview
+│   │   │   │   ├── bulkActionPermissions.prevalues.html
+│   │   │   │   ├── includeproperties.prevalues.html
+│   │   │   │   ├── layouts
+│   │   │   │   │   ├── grid
+│   │   │   │   │   │   └── grid.html
+│   │   │   │   │   └── list
+│   │   │   │   │       └── list.html
+│   │   │   │   ├── layouts.prevalues.html
+│   │   │   │   ├── listview.html
+│   │   │   │   ├── orderDirection.prevalues.html
+│   │   │   │   └── sortby.prevalues.html
+│   │   │   ├── macrocontainer
+│   │   │   │   ├── macrocontainer.html
+│   │   │   │   └── macrolist.prevalues.html
+│   │   │   ├── markdowneditor
+│   │   │   │   └── markdowneditor.html
+│   │   │   ├── mediapicker
+│   │   │   │   └── mediapicker.html
+│   │   │   ├── membergrouppicker
+│   │   │   │   └── membergrouppicker.html
+│   │   │   ├── membergroups
+│   │   │   │   └── membergroups.html
+│   │   │   ├── memberpicker
+│   │   │   │   └── memberpicker.html
+│   │   │   ├── multipletextbox
+│   │   │   │   └── multipletextbox.html
+│   │   │   ├── nestedcontent
+│   │   │   │   ├── nestedcontent.doctypepicker.html
+│   │   │   │   ├── nestedcontent.editor.html
+│   │   │   │   └── nestedcontent.html
+│   │   │   ├── radiobuttons
+│   │   │   │   └── radiobuttons.html
+│   │   │   ├── readonlyvalue
+│   │   │   │   └── readonlyvalue.html
+│   │   │   ├── relatedlinks
+│   │   │   │   └── relatedlinks.html
+│   │   │   ├── rte
+│   │   │   │   ├── rte.html
+│   │   │   │   └── rte.prevalues.html
+│   │   │   ├── sensitivevalue
+│   │   │   │   └── sensitivevalue.html
+│   │   │   ├── slider
+│   │   │   │   ├── handle.prevalues.html
+│   │   │   │   ├── orientation.prevalues.html
+│   │   │   │   ├── slider.html
+│   │   │   │   └── tooltip.prevalues.html
+│   │   │   ├── tags
+│   │   │   │   ├── tags.html
+│   │   │   │   └── tags.prevalues.html
+│   │   │   ├── templatepicker
+│   │   │   │   └── templatepicker.html
+│   │   │   ├── test
+│   │   │   │   └── test.html
+│   │   │   ├── textarea
+│   │   │   │   └── textarea.html
+│   │   │   ├── textbox
+│   │   │   │   └── textbox.html
+│   │   │   ├── ultrasimple
+│   │   │   │   └── ultrasimple.html
+│   │   │   ├── urllist
+│   │   │   │   └── urllist.html
+│   │   │   └── validationtest
+│   │   │       └── validationtest.html
+│   │   ├── scripts
+│   │   │   ├── create.html
+│   │   │   ├── delete.html
+│   │   │   └── edit.html
+│   │   ├── templates
+│   │   │   ├── delete.html
+│   │   │   └── edit.html
+│   │   └── users
+│   │       ├── group.html
+│   │       ├── overview.html
+│   │       ├── user.html
+│   │       └── views
+│   │           ├── groups
+│   │           │   └── groups.html
+│   │           ├── user
+│   │           │   └── details.html
+│   │           └── users
+│   │               └── users.html
+│   ├── Webservices
+│   │   ├── ajax.js
+│   │   ├── CacheRefresher.asmx
+│   │   ├── CheckForUpgrade.asmx
+│   │   ├── CMSNode.asmx
+│   │   ├── codeEditorSave.asmx
+│   │   ├── legacyAjaxCalls.asmx
+│   │   ├── MacroContainerService.asmx
+│   │   ├── nodeSorter.asmx
+│   │   ├── progressStatus.asmx
+│   │   ├── publication.asmx
+│   │   ├── TagsAutoCompleteHandler.ashx
+│   │   ├── TreeClientService.asmx
+│   │   ├── TreeDataService.ashx
+│   │   └── wsdl.xslt
+│   └── Xslt
+│       ├── macroGetCurrent.xsl
+│       ├── macroGetSubs.xsl
+│       ├── searchResult.xslt
+│       ├── sqlNodeHierachy.xslt
+│       ├── Templates
+│       │   ├── Breadcrumb.xslt
+│       │   ├── Clean.xslt
+│       │   ├── ListSubPagesAsThumbnails.xslt
+│       │   ├── ListSubPagesByDateAndLimit.xslt
+│       │   ├── ListSubPagesByDocumentType.xslt
+│       │   ├── ListSubPagesByLevel.xslt
+│       │   ├── ListSubPagesFromAChangableSource.xslt
+│       │   ├── ListSubPagesFromCurrentPage.xslt
+│       │   ├── ListThumbnailsFromCurrentPage.xslt
+│       │   ├── ListWholeStructureFromCurrentPage.xslt
+│       │   ├── NavigationPrototype.xslt
+│       │   ├── RelatedLinks.xslt
+│       │   ├── RSSFeed.xslt
+│       │   ├── Schema2
+│       │   │   ├── Breadcrumb.xslt
+│       │   │   ├── Clean.xslt
+│       │   │   ├── ListSubPagesAsThumbnails.xslt
+│       │   │   ├── ListSubPagesByDateAndLimit.xslt
+│       │   │   ├── ListSubPagesByDocumentType.xslt
+│       │   │   ├── ListSubPagesByLevel.xslt
+│       │   │   ├── ListSubPagesFromAChangableSource.xslt
+│       │   │   ├── ListSubPagesFromCurrentPage.xslt
+│       │   │   ├── ListThumbnailsFromCurrentPage.xslt
+│       │   │   ├── ListWholeStructureFromCurrentPage.xslt
+│       │   │   ├── NavigationPrototype.xslt
+│       │   │   ├── RelatedLinks.xslt
+│       │   │   ├── RSSFeed.xslt
+│       │   │   ├── Sitemap.xslt
+│       │   │   └── TablePrototype.xslt
+│       │   ├── Sitemap.xslt
+│       │   └── TablePrototype.xslt
+│       └── Web.config
+├── Umbraco_Client
+│   ├── Application
+│   │   ├── Extensions.js
+│   │   ├── HistoryManager.js
+│   │   ├── JQuery
+│   │   │   ├── jquery.autocomplete.js
+│   │   │   ├── jquery.ba-bbq.min.js
+│   │   │   ├── jquery.cookie.js
+│   │   │   ├── jquery-fieldselection.js
+│   │   │   ├── jquery.hotkeys.js
+│   │   │   ├── jquery.idle-timer.js
+│   │   │   ├── jquery.metadata.min.js
+│   │   │   ├── jquery.noconflict-invoke.js
+│   │   │   ├── jquery.unobtrusive-ajax.min.js
+│   │   │   ├── jquery.validate.min.js
+│   │   │   ├── jquery.validate.unobtrusive.min.js
+│   │   │   └── VerticalAlign.js
+│   │   ├── NamespaceManager.js
+│   │   ├── UmbracoApplicationActions.js
+│   │   ├── UmbracoClientManager.js
+│   │   ├── UmbracoUtils.js
+│   │   └── UrlEncoder.js
+│   ├── CodeArea
+│   │   ├── javascript.js
+│   │   ├── styles.css
+│   │   └── UmbracoEditor.js
+│   ├── ContextMenu
+│   │   ├── Css
+│   │   │   └── jquery.contextMenu.css
+│   │   └── Js
+│   │       └── jquery.contextMenu.js
+│   ├── Datepicker
+│   │   └── Aqua
+│   │       └── theme.css
+│   ├── DateTimePicker
+│   │   ├── datetimepicker.css
+│   │   ├── Images
+│   │   │   ├── calSprite.png
+│   │   │   ├── ui-icons_666666_256x240.png
+│   │   │   └── ui-icons_999999_256x240.png
+│   │   ├── timepicker.js
+│   │   └── umbDateTimePicker.js
+│   ├── Dialogs
+│   │   ├── AssignDomain2.css
+│   │   ├── AssignDomain2.js
+│   │   ├── CreateDialog.css
+│   │   ├── EditMacro.css
+│   │   ├── EditMacro.js
+│   │   ├── PublishDialog.css
+│   │   ├── PublishDialog.js
+│   │   ├── SortDialog.css
+│   │   ├── SortDialog.js
+│   │   └── UmbracoField.js
+│   ├── Editors
+│   │   ├── DirectoryBrowser.css
+│   │   ├── EditMacro.css
+│   │   ├── EditStyleSheet.js
+│   │   ├── EditTemplate.js
+│   │   ├── EditView.js
+│   │   ├── EditXslt.css
+│   │   └── EditXslt.js
+│   ├── FileUploader
+│   │   └── Js
+│   │       └── jquery.fileUploader.js
+│   ├── FolderBrowser
+│   │   ├── Css
+│   │   │   └── folderbrowser.css
+│   │   └── Js
+│   │       └── folderbrowser.js
+│   ├── Images
+│   │   └── progressbar.gif
+│   ├── MacroContainer
+│   │   └── macroContainer.css
+│   ├── MaskedInput
+│   │   └── jquery.maskedinput-1.3.min.js
+│   ├── Menuicon
+│   │   ├── Images
+│   │   │   ├── buttonbgdown.gif
+│   │   │   ├── buttonbg.gif
+│   │   │   └── split.gif
+│   │   └── style.css
+│   ├── Modal
+│   │   ├── jquery.simplemodal.1.4.1.custom.js
+│   │   ├── modalBackground.gif
+│   │   ├── modalGradiant.gif
+│   │   ├── modal.js
+│   │   └── style.css
+│   ├── Panel
+│   │   ├── Images
+│   │   │   ├── panel_bg.gif
+│   │   │   ├── panel_boxfooter_bg.gif
+│   │   │   ├── panel_boxfooter_statusBar_bg.gif
+│   │   │   ├── panel_boxfooter_statusBar_h2_bg.gif
+│   │   │   ├── panel_boxhead_bg.gif
+│   │   │   └── panel_boxhead_h2_bg.gif
+│   │   ├── javascript.js
+│   │   └── style.css
+│   ├── Preview
+│   │   ├── previewModeBadge.png
+│   │   └── umbracoPreview.css
+│   ├── ProgressBar
+│   │   ├── Images
+│   │   │   ├── container_left.gif
+│   │   │   ├── container_right.gif
+│   │   │   └── indicator.gif
+│   │   ├── javascript.js
+│   │   └── style.css
+│   ├── Propertypane
+│   │   ├── Images
+│   │   │   └── propertyBackground.gif
+│   │   └── style.css
+│   ├── PunyCode
+│   │   └── punycode.min.js
+│   ├── Scrollingmenu
+│   │   ├── javascript.js
+│   │   └── style.css
+│   ├── Splitbutton
+│   │   ├── Images
+│   │   │   ├── splitbutton_downarrow.png
+│   │   │   └── splitbutton_hover.png
+│   │   ├── InsertMacroSplitButton.js
+│   │   ├── jquery.splitbutton.js
+│   │   └── splitbutton.css
+│   ├── Tablesorting
+│   │   ├── img
+│   │   │   ├── asc.gif
+│   │   │   ├── bg.gif
+│   │   │   └── desc.gif
+│   │   ├── jquery.tablesorter.min.js
+│   │   ├── tableDragAndDrop.js
+│   │   ├── tableFilter.js
+│   │   └── tableFilterUtill.js
+│   ├── Tabview
+│   │   ├── Images
+│   │   │   ├── background.gif
+│   │   │   ├── bg.gif
+│   │   │   ├── footer_bg.gif
+│   │   │   ├── footer_statusBar_bg.gif
+│   │   │   ├── footer_statusBar_h2_bg.gif
+│   │   │   ├── left_both.gif
+│   │   │   └── right_both.gif
+│   │   ├── javascript.js
+│   │   ├── oldstyle.css
+│   │   └── style.css
+│   ├── Tree
+│   │   ├── jquery.tree.checkbox.js
+│   │   ├── jquery.tree.contextmenu.js
+│   │   ├── jquery.tree.js
+│   │   ├── jquery.tree.metadata.js
+│   │   ├── menuIcons.css
+│   │   ├── NodeDefinition.js
+│   │   ├── sprites.png
+│   │   ├── Themes
+│   │   │   ├── Default
+│   │   │   │   ├── dot_for_ie.gif
+│   │   │   │   ├── icons.png
+│   │   │   │   ├── style.css
+│   │   │   │   └── throbber.gif
+│   │   │   └── Umbraco
+│   │   │       ├── arrows.png
+│   │   │       ├── check_0.png
+│   │   │       ├── check_1.png
+│   │   │       ├── check_2.png
+│   │   │       ├── contextMenuBg.gif
+│   │   │       ├── icons.png
+│   │   │       ├── newVersion_overlay.png
+│   │   │       ├── protect_overlay.gif
+│   │   │       ├── style.css
+│   │   │       └── throbber.gif
+│   │   ├── treeIcons.css
+│   │   ├── UmbracoContext.js
+│   │   └── UmbracoTree.js
+│   └── Ui
+│       ├── base2.js
+│       ├── dd_arrow.gif
+│       ├── dd.css
+│       ├── default.css
+│       ├── default.js
+│       ├── jquery.alphanumeric.js
+│       ├── jquery.dd.js
+│       ├── jquery.js
+│       ├── jquery.tooltip.min.js
+│       ├── jqueryui.js
+│       ├── jQueryWresize.js
+│       ├── json2.js
+│       ├── knockout.js
+│       └── knockout.mapping.js
+├── Views
+│   ├── Blog.cshtml
+│   ├── Blogpost.cshtml
+│   ├── Contact.cshtml
+│   ├── ContentPage.cshtml
+│   ├── Home.cshtml
+│   ├── MacroPartials
+│   │   ├── FeaturedProducts.cshtml
+│   │   └── LatestBlogposts.cshtml
+│   ├── Master.cshtml
+│   ├── Partials
+│   │   ├── CategoryLinks.cshtml
+│   │   ├── Grid
+│   │   │   ├── Bootstrap2.cshtml
+│   │   │   ├── Bootstrap2-Fluid.cshtml
+│   │   │   ├── Bootstrap3.cshtml
+│   │   │   ├── Bootstrap3-Fluid.cshtml
+│   │   │   └── Editors
+│   │   │       ├── Base.cshtml
+│   │   │       ├── Embed.cshtml
+│   │   │       ├── Macro.cshtml
+│   │   │       ├── Media.cshtml
+│   │   │       ├── Rte.cshtml
+│   │   │       └── Textstring.cshtml
+│   │   ├── Navigation
+│   │   │   ├── SubNavigation.cshtml
+│   │   │   └── TopNavigation.cshtml
+│   │   └── SectionHeader.cshtml
+│   ├── People.cshtml
+│   ├── Person.cshtml
+│   ├── Product.cshtml
+│   ├── Products.cshtml
+│   └── Web.config
+└── Web.config
+
+485 directories, 1887 files

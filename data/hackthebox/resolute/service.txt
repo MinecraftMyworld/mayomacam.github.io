@@ -1,0 +1,59 @@
+Status   Name               DisplayName
+------   ----               -----------
+Stopped  AppMgmt            Application Management
+Stopped  Browser            Computer Browser
+Stopped  ClipSVC            Client License Service (ClipSVC)
+Running  DcomLaunch         DCOM Server Process Launcher
+Running  Dfs                DFS Namespace
+Running  Dhcp               DHCP Client
+Stopped  DNS                DNS Server
+Running  Dnscache           DNS Client
+Running  EFS                Encrypting File System (EFS)
+Running  EventLog           Windows Event Log
+Running  Kdc                Kerberos Key Distribution Center
+Stopped  KtmRm              KtmRm for Distributed Transaction C...
+Running  LSM                Local Session Manager
+Running  MSDTC              Distributed Transaction Coordinator
+Stopped  NetSetupSvc        Network Setup Service
+Stopped  NetTcpPortSharing  Net.Tcp Port Sharing Service
+Stopped  pla                Performance Logs & Alerts
+Stopped  RasMan             Remote Access Connection Manager
+Stopped  RemoteAccess       Routing and Remote Access
+Running  RpcEptMapper       RPC Endpoint Mapper
+Running  RpcSs              Remote Procedure Call (RPC)
+Stopped  RSoPProv           Resultant Set of Policy Provider
+Running  SamSs              Security Accounts Manager
+Running  Schedule           Task Scheduler
+Stopped  seclogon           Secondary Logon
+Running  SENS               System Event Notification Service
+Stopped  smphost            Microsoft Storage Spaces SMP
+Stopped  Spooler            Print Spooler
+Stopped  sppsvc             Software Protection
+Stopped  SstpSvc            Secure Socket Tunneling Protocol Se...
+Running  SystemEventsBroker System Events Broker
+Running  TimeBrokerSvc      Time Broker
+Running  vds                Virtual Disk
+Stopped  WdNisSvc           Windows Defender Network Inspection...
+Running  WinDefend          Windows Defender Service
+Running  WinHttpAutoProx... WinHTTP Web Proxy Auto-Discovery Se...
+Stopped  wuauserv           Windows Update
+
+
+
+
+
+
+Path                                                                              Privileges Service                     
+----                                                                              ---------- -------                     
+C:\Windows\ADWS\Microsoft.ActiveDirectory.WebServices.exe                              False ADWS                        
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\SMSvcHost.exe                           True NetTcpPortSharing           
+C:\Windows\SysWow64\perfhost.exe                                                       False PerfHost                    
+C:\Windows\servicing\TrustedInstaller.exe                                              False TrustedInstaller            
+"C:\Program Files\VMware\VMware Tools\VMware VGAuth\VGAuthService.exe"                 False VGAuthService               
+"C:\Program Files\VMware\VMware Tools\vmtoolsd.exe"                                    False VMTools                     
+"C:\Program Files\VMware\VMware Tools\VMware CAF\pme\bin\CommAmqpListener.exe"         False VMwareCAFCommAmqpListener   
+"C:\Program Files\VMware\VMware Tools\VMware CAF\pme\bin\ManagementAgentHost.exe"      False VMwareCAFManagementAgentHost
+"C:\Program Files\Windows Defender\NisSrv.exe"                                          True WdNisSvc                    
+"C:\Program Files\Windows Defender\MsMpEng.exe"                                         True WinDefend                   
+
+

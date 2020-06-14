@@ -1,0 +1,74 @@
+PS C:\program files\nsclient++> .\nscp.exe
+Usage: nscp <context>
+  The <context> is the mode of operation ie. a type of command.
+You can also use aliases here which are shorthands for 'nscp client --module <plugin>'
+  Available context are:
+    client
+      Act as a client. This will run commands inside various installed modules and scripts.
+
+    help
+      Display the help screen.
+
+    service
+      Install/uninstall/display NSCP service.
+
+    settings
+      Change and list settings as well as load and initialize modules.
+
+    unit
+      Run unit test scripts.
+
+  Available aliases are:
+    check_mk   (same as nscp client --module CheckMKClient)
+      Use a check_mk (the protocol) client to request information from other systems via check_mk.
+
+    eventlog   (same as nscp client --module CheckEventLog)
+      Inject event log message into the eventlog (mainly for testing eventlog filtering and setup)
+
+    ext   (same as nscp client --module CheckExternalScripts)
+      TODO: describe: ext
+
+    ext-scr   (same as nscp client --module CheckExternalScripts)
+      TODO: describe: ext-scr
+
+    lua   (same as nscp client --module LUAScript)
+      Execute lua scripts
+
+    mk   (same as nscp client --module CheckMKClient)
+      Use a check_mk (the protocol) client to request information from other systems via check_mk.
+
+    nrpe   (same as nscp client --module NRPEClient)
+      Use a NRPE client to request information from other systems via NRPE similar to standard NRPE check_nrpe command.
+
+      Use a NSCA to submit passive checks to a remote system. Similar to the send_nsca command
+
+    nscp   (same as nscp client --module NSCPClient)
+      Use a NSCP (the protocol) client to request information from other systems via NSCP.
+
+    op5   (same as nscp client --module Op5Client)
+      TODO: describe: op5
+
+    py   (same as nscp client --module PythonScript)
+      Execute python scripts
+
+    python   (same as nscp client --module PythonScript)
+      Execute python scripts
+
+    sys   (same as nscp client --module CheckSystem)
+      Various system tools to get information about the system (generally PDH on windows curretly)
+
+    syslog   (same as nscp client --module SyslogClient)
+      Use SYSLOG (the protocol) to submit messages to a remote system.
+
+    test   (same as nscp client --module CommandClient)
+      The best way to diagnose and find errors with your configuration and setup.
+
+    web   (same as nscp client --module WEBServer)
+      TODO: describe: web
+
+    wmi   (same as nscp client --module CheckWMI)
+      Run WMI queries from command line
+
+  A short list of all available contexts are:
+client, help, service, settings, unit, check_mk, eventlog, ext, ext-scr, lua, mk, nrpe, nsca, nscp, op5, py, python, sys, syslog, test,
+ web, wmi

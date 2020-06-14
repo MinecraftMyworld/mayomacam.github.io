@@ -1,0 +1,496 @@
+From root@admirer.htb Wed Apr 22 11:50:01 2020
+Return-path: <root@admirer.htb>
+Envelope-to: root@admirer.htb
+Delivery-date: Wed, 22 Apr 2020 11:50:01 +0100
+Received: from root by admirer.htb with local (Exim 4.89)
+	(envelope-from <root@admirer.htb>)
+	id 1jRCx7-0000XY-Op
+	for root@admirer.htb; Wed, 22 Apr 2020 11:50:01 +0100
+From: root@admirer.htb (Cron Daemon)
+To: root@admirer.htb
+Subject: Cron <root@admirer> rm -r /tmp/*
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1jRCx7-0000XY-Op@admirer.htb>
+Date: Wed, 22 Apr 2020 11:50:01 +0100
+
+rm: cannot remove '/tmp/*': No such file or directory
+
+From root@admirer.htb Wed Apr 22 11:55:01 2020
+Return-path: <root@admirer.htb>
+Envelope-to: root@admirer.htb
+Delivery-date: Wed, 22 Apr 2020 11:55:01 +0100
+Received: from root by admirer.htb with local (Exim 4.89)
+	(envelope-from <root@admirer.htb>)
+	id 1jRD1x-0000Xl-Qt
+	for root@admirer.htb; Wed, 22 Apr 2020 11:55:01 +0100
+From: root@admirer.htb (Cron Daemon)
+To: root@admirer.htb
+Subject: Cron <root@admirer> rm -r /tmp/*
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1jRD1x-0000Xl-Qt@admirer.htb>
+Date: Wed, 22 Apr 2020 11:55:01 +0100
+
+rm: cannot remove '/tmp/*': No such file or directory
+
+From root@admirer.htb Wed Apr 22 12:00:01 2020
+Return-path: <root@admirer.htb>
+Envelope-to: root@admirer.htb
+Delivery-date: Wed, 22 Apr 2020 12:00:01 +0100
+Received: from root by admirer.htb with local (Exim 4.89)
+	(envelope-from <root@admirer.htb>)
+	id 1jRD6n-0000Xr-Sz
+	for root@admirer.htb; Wed, 22 Apr 2020 12:00:01 +0100
+From: root@admirer.htb (Cron Daemon)
+To: root@admirer.htb
+Subject: Cron <root@admirer> rm -r /tmp/*
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1jRD6n-0000Xr-Sz@admirer.htb>
+Date: Wed, 22 Apr 2020 12:00:01 +0100
+
+rm: cannot remove '/tmp/*': No such file or directory
+
+From root@admirer.htb Wed Apr 29 09:50:01 2020
+Return-path: <root@admirer.htb>
+Envelope-to: root@admirer.htb
+Delivery-date: Wed, 29 Apr 2020 09:50:01 +0100
+Received: from root by admirer.htb with local (Exim 4.89)
+	(envelope-from <root@admirer.htb>)
+	id 1jTiPp-0000X0-DZ
+	for root@admirer.htb; Wed, 29 Apr 2020 09:50:01 +0100
+From: root@admirer.htb (Cron Daemon)
+To: root@admirer.htb
+Subject: Cron <root@admirer> rm -r /tmp/*
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1jTiPp-0000X0-DZ@admirer.htb>
+Date: Wed, 29 Apr 2020 09:50:01 +0100
+
+rm: cannot remove '/tmp/*': No such file or directory
+
+From root@admirer.htb Wed Apr 29 09:55:01 2020
+Return-path: <root@admirer.htb>
+Envelope-to: root@admirer.htb
+Delivery-date: Wed, 29 Apr 2020 09:55:01 +0100
+Received: from root by admirer.htb with local (Exim 4.89)
+	(envelope-from <root@admirer.htb>)
+	id 1jTiUf-0000aC-Fc
+	for root@admirer.htb; Wed, 29 Apr 2020 09:55:01 +0100
+From: root@admirer.htb (Cron Daemon)
+To: root@admirer.htb
+Subject: Cron <root@admirer> rm -r /tmp/*
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1jTiUf-0000aC-Fc@admirer.htb>
+Date: Wed, 29 Apr 2020 09:55:01 +0100
+
+rm: cannot remove '/tmp/*': No such file or directory
+
+From root@admirer.htb Wed Apr 29 10:00:01 2020
+Return-path: <root@admirer.htb>
+Envelope-to: root@admirer.htb
+Delivery-date: Wed, 29 Apr 2020 10:00:01 +0100
+Received: from root by admirer.htb with local (Exim 4.89)
+	(envelope-from <root@admirer.htb>)
+	id 1jTiZV-0000aP-IK
+	for root@admirer.htb; Wed, 29 Apr 2020 10:00:01 +0100
+From: root@admirer.htb (Cron Daemon)
+To: root@admirer.htb
+Subject: Cron <root@admirer> rm -r /tmp/*
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1jTiZV-0000aP-IK@admirer.htb>
+Date: Wed, 29 Apr 2020 10:00:01 +0100
+
+rm: cannot remove '/tmp/*': No such file or directory
+
+From root@admirer.htb Wed Apr 29 10:05:01 2020
+Return-path: <root@admirer.htb>
+Envelope-to: root@admirer.htb
+Delivery-date: Wed, 29 Apr 2020 10:05:01 +0100
+Received: from root by admirer.htb with local (Exim 4.89)
+	(envelope-from <root@admirer.htb>)
+	id 1jTieL-0000aV-Kk
+	for root@admirer.htb; Wed, 29 Apr 2020 10:05:01 +0100
+From: root@admirer.htb (Cron Daemon)
+To: root@admirer.htb
+Subject: Cron <root@admirer> rm -r /tmp/*
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1jTieL-0000aV-Kk@admirer.htb>
+Date: Wed, 29 Apr 2020 10:05:01 +0100
+
+rm: cannot remove '/tmp/*': No such file or directory
+
+From root@admirer.htb Wed Apr 29 10:10:01 2020
+Return-path: <root@admirer.htb>
+Envelope-to: root@admirer.htb
+Delivery-date: Wed, 29 Apr 2020 10:10:01 +0100
+Received: from root by admirer.htb with local (Exim 4.89)
+	(envelope-from <root@admirer.htb>)
+	id 1jTijB-0000bc-Q5
+	for root@admirer.htb; Wed, 29 Apr 2020 10:10:01 +0100
+From: root@admirer.htb (Cron Daemon)
+To: root@admirer.htb
+Subject: Cron <root@admirer> rm -r /tmp/*
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1jTijB-0000bc-Q5@admirer.htb>
+Date: Wed, 29 Apr 2020 10:10:01 +0100
+
+rm: cannot remove '/tmp/*': No such file or directory
+
+From root@admirer.htb Wed Apr 29 10:15:01 2020
+Return-path: <root@admirer.htb>
+Envelope-to: root@admirer.htb
+Delivery-date: Wed, 29 Apr 2020 10:15:01 +0100
+Received: from root by admirer.htb with local (Exim 4.89)
+	(envelope-from <root@admirer.htb>)
+	id 1jTio1-0000cZ-SR
+	for root@admirer.htb; Wed, 29 Apr 2020 10:15:01 +0100
+From: root@admirer.htb (Cron Daemon)
+To: root@admirer.htb
+Subject: Cron <root@admirer> rm -r /tmp/*
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1jTio1-0000cZ-SR@admirer.htb>
+Date: Wed, 29 Apr 2020 10:15:01 +0100
+
+rm: cannot remove '/tmp/*': No such file or directory
+
+From root@admirer.htb Wed Apr 29 10:20:02 2020
+Return-path: <root@admirer.htb>
+Envelope-to: root@admirer.htb
+Delivery-date: Wed, 29 Apr 2020 10:20:02 +0100
+Received: from root by admirer.htb with local (Exim 4.89)
+	(envelope-from <root@admirer.htb>)
+	id 1jTisr-0000dG-Uz
+	for root@admirer.htb; Wed, 29 Apr 2020 10:20:01 +0100
+From: root@admirer.htb (Cron Daemon)
+To: root@admirer.htb
+Subject: Cron <root@admirer> rm -r /tmp/*
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1jTisr-0000dG-Uz@admirer.htb>
+Date: Wed, 29 Apr 2020 10:20:01 +0100
+
+rm: cannot remove '/tmp/*': No such file or directory
+
+From root@admirer.htb Wed Apr 29 10:40:01 2020
+Return-path: <root@admirer.htb>
+Envelope-to: root@admirer.htb
+Delivery-date: Wed, 29 Apr 2020 10:40:01 +0100
+Received: from root by admirer.htb with local (Exim 4.89)
+	(envelope-from <root@admirer.htb>)
+	id 1jTjCD-0000Y1-Hz
+	for root@admirer.htb; Wed, 29 Apr 2020 10:40:01 +0100
+From: root@admirer.htb (Cron Daemon)
+To: root@admirer.htb
+Subject: Cron <root@admirer> rm -r /tmp/*
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1jTjCD-0000Y1-Hz@admirer.htb>
+Date: Wed, 29 Apr 2020 10:40:01 +0100
+
+rm: cannot remove '/tmp/*': No such file or directory
+
+From root@admirer.htb Wed Apr 29 10:45:01 2020
+Return-path: <root@admirer.htb>
+Envelope-to: root@admirer.htb
+Delivery-date: Wed, 29 Apr 2020 10:45:01 +0100
+Received: from root by admirer.htb with local (Exim 4.89)
+	(envelope-from <root@admirer.htb>)
+	id 1jTjH3-0000Y8-KD
+	for root@admirer.htb; Wed, 29 Apr 2020 10:45:01 +0100
+From: root@admirer.htb (Cron Daemon)
+To: root@admirer.htb
+Subject: Cron <root@admirer> rm -r /tmp/*
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1jTjH3-0000Y8-KD@admirer.htb>
+Date: Wed, 29 Apr 2020 10:45:01 +0100
+
+rm: cannot remove '/tmp/*': No such file or directory
+
+From root@admirer.htb Wed Apr 29 10:50:01 2020
+Return-path: <root@admirer.htb>
+Envelope-to: root@admirer.htb
+Delivery-date: Wed, 29 Apr 2020 10:50:01 +0100
+Received: from root by admirer.htb with local (Exim 4.89)
+	(envelope-from <root@admirer.htb>)
+	id 1jTjLt-0000YF-MR
+	for root@admirer.htb; Wed, 29 Apr 2020 10:50:01 +0100
+From: root@admirer.htb (Cron Daemon)
+To: root@admirer.htb
+Subject: Cron <root@admirer> rm -r /tmp/*
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1jTjLt-0000YF-MR@admirer.htb>
+Date: Wed, 29 Apr 2020 10:50:01 +0100
+
+rm: cannot remove '/tmp/*': No such file or directory
+
+From root@admirer.htb Wed Apr 29 10:55:01 2020
+Return-path: <root@admirer.htb>
+Envelope-to: root@admirer.htb
+Delivery-date: Wed, 29 Apr 2020 10:55:01 +0100
+Received: from root by admirer.htb with local (Exim 4.89)
+	(envelope-from <root@admirer.htb>)
+	id 1jTjQj-0000Yi-Ol
+	for root@admirer.htb; Wed, 29 Apr 2020 10:55:01 +0100
+From: root@admirer.htb (Cron Daemon)
+To: root@admirer.htb
+Subject: Cron <root@admirer> rm -r /tmp/*
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1jTjQj-0000Yi-Ol@admirer.htb>
+Date: Wed, 29 Apr 2020 10:55:01 +0100
+
+rm: cannot remove '/tmp/*': No such file or directory
+
+From root@admirer.htb Wed Apr 29 11:05:01 2020
+Return-path: <root@admirer.htb>
+Envelope-to: root@admirer.htb
+Delivery-date: Wed, 29 Apr 2020 11:05:01 +0100
+Received: from root by admirer.htb with local (Exim 4.89)
+	(envelope-from <root@admirer.htb>)
+	id 1jTjaP-0000Zf-Rd
+	for root@admirer.htb; Wed, 29 Apr 2020 11:05:01 +0100
+From: root@admirer.htb (Cron Daemon)
+To: root@admirer.htb
+Subject: Cron <root@admirer> rm -r /tmp/*
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1jTjaP-0000Zf-Rd@admirer.htb>
+Date: Wed, 29 Apr 2020 11:05:01 +0100
+
+rm: cannot remove '/tmp/*': No such file or directory
+
+From root@admirer.htb Wed Apr 29 11:09:01 2020
+Return-path: <root@admirer.htb>
+Envelope-to: root@admirer.htb
+Delivery-date: Wed, 29 Apr 2020 11:09:01 +0100
+Received: from root by admirer.htb with local (Exim 4.89)
+	(envelope-from <root@admirer.htb>)
+	id 1jTjeH-0000aO-Tk
+	for root@admirer.htb; Wed, 29 Apr 2020 11:09:01 +0100
+From: root@admirer.htb (Cron Daemon)
+To: root@admirer.htb
+Subject: Cron <root@admirer> rm -r /tmp/*.*
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1jTjeH-0000aO-Tk@admirer.htb>
+Date: Wed, 29 Apr 2020 11:09:01 +0100
+
+rm: cannot remove '/tmp/*.*': No such file or directory
+
+From root@admirer.htb Wed Apr 29 11:10:02 2020
+Return-path: <root@admirer.htb>
+Envelope-to: root@admirer.htb
+Delivery-date: Wed, 29 Apr 2020 11:10:02 +0100
+Received: from root by admirer.htb with local (Exim 4.89)
+	(envelope-from <root@admirer.htb>)
+	id 1jTjfF-0000bC-Vu
+	for root@admirer.htb; Wed, 29 Apr 2020 11:10:01 +0100
+From: root@admirer.htb (Cron Daemon)
+To: root@admirer.htb
+Subject: Cron <root@admirer> rm /home/waldo/*.p*
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1jTjfF-0000bC-Vu@admirer.htb>
+Date: Wed, 29 Apr 2020 11:10:01 +0100
+
+rm: cannot remove '/home/waldo/*.p*': No such file or directory
+
+From root@admirer.htb Wed Apr 29 11:12:02 2020
+Return-path: <root@admirer.htb>
+Envelope-to: root@admirer.htb
+Delivery-date: Wed, 29 Apr 2020 11:12:02 +0100
+Received: from root by admirer.htb with local (Exim 4.89)
+	(envelope-from <root@admirer.htb>)
+	id 1jTjhC-0000bf-2B
+	for root@admirer.htb; Wed, 29 Apr 2020 11:12:02 +0100
+From: root@admirer.htb (Cron Daemon)
+To: root@admirer.htb
+Subject: Cron <root@admirer> rm /home/waldo/*.p*
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1jTjhC-0000bf-2B@admirer.htb>
+Date: Wed, 29 Apr 2020 11:12:02 +0100
+
+rm: cannot remove '/home/waldo/*.p*': No such file or directory
+
+From root@admirer.htb Wed Apr 29 11:13:01 2020
+Return-path: <root@admirer.htb>
+Envelope-to: root@admirer.htb
+Delivery-date: Wed, 29 Apr 2020 11:13:01 +0100
+Received: from root by admirer.htb with local (Exim 4.89)
+	(envelope-from <root@admirer.htb>)
+	id 1jTji9-0000bm-4I
+	for root@admirer.htb; Wed, 29 Apr 2020 11:13:01 +0100
+From: root@admirer.htb (Cron Daemon)
+To: root@admirer.htb
+Subject: Cron <root@admirer> rm /home/waldo/*.p*
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1jTji9-0000bm-4I@admirer.htb>
+Date: Wed, 29 Apr 2020 11:13:01 +0100
+
+rm: cannot remove '/home/waldo/*.p*': No such file or directory
+
+From root@admirer.htb Wed Apr 29 11:14:01 2020
+Return-path: <root@admirer.htb>
+Envelope-to: root@admirer.htb
+Delivery-date: Wed, 29 Apr 2020 11:14:01 +0100
+Received: from root by admirer.htb with local (Exim 4.89)
+	(envelope-from <root@admirer.htb>)
+	id 1jTjj7-0000c4-6S
+	for root@admirer.htb; Wed, 29 Apr 2020 11:14:01 +0100
+From: root@admirer.htb (Cron Daemon)
+To: root@admirer.htb
+Subject: Cron <root@admirer> rm /home/waldo/*.p*
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E1jTjj7-0000c4-6S@admirer.htb>
+Date: Wed, 29 Apr 2020 11:14:01 +0100
+
+rm: cannot remove '/home/waldo/*.p*': No such file or directory
+
+From waldo@admirer.htb Mon May 25 16:13:53 2020
+Return-path: <waldo@admirer.htb>
+Envelope-to: root@admirer.htb
+Delivery-date: Mon, 25 May 2020 16:13:53 +0100
+Received: from waldo by admirer.htb with local (Exim 4.89)
+	(envelope-from <waldo@admirer.htb>)
+	id 1jdEnO-0002gW-ML
+	for root@admirer.htb; Mon, 25 May 2020 16:13:42 +0100
+To: root@admirer.htb
+Auto-Submitted: auto-generated
+Subject: *** SECURITY information for admirer.htb ***
+From: Waldo Cooper <waldo@admirer.htb>
+Message-Id: <E1jdEnO-0002gW-ML@admirer.htb>
+Date: Mon, 25 May 2020 16:13:42 +0100
+
+admirer.htb : May 25 16:13:32 : waldo : 1 incorrect password attempt ; TTY=pts/1 ; PWD=/tmp ; USER=root ; COMMAND=list
+
+
+From waldo@admirer.htb Mon May 25 17:07:58 2020
+Return-path: <waldo@admirer.htb>
+Envelope-to: root@admirer.htb
+Delivery-date: Mon, 25 May 2020 17:07:58 +0100
+Received: from waldo by admirer.htb with local (Exim 4.89)
+	(envelope-from <waldo@admirer.htb>)
+	id 1jdFdk-0005h6-Ja
+	for root@admirer.htb; Mon, 25 May 2020 17:07:48 +0100
+To: root@admirer.htb
+Auto-Submitted: auto-generated
+Subject: *** SECURITY information for admirer.htb ***
+From: Waldo Cooper <waldo@admirer.htb>
+Message-Id: <E1jdFdk-0005h6-Ja@admirer.htb>
+Date: Mon, 25 May 2020 17:07:48 +0100
+
+admirer.htb : May 25 17:07:38 : waldo : 3 incorrect password attempts ; TTY=pts/4 ; PWD=/tmp/xshut ; USER=root ; ENV=PYTHONPATH=/tmp/xshut ; COMMAND=/opt/scripts/admin_tasks.sh
+
+

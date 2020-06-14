@@ -1,0 +1,3 @@
+db admin
+$username = "waldo";
+  $password = "Wh3r3_1s_w4ld0?";

@@ -1,0 +1,4 @@
+                        $servername = "localhost";
+ edit	                        $username = "waldo";
+ edit	                        $password = "&<h5b~yK3F#{PaPB&dA}{H>";
+ edit	                        $dbname = "admirerdb";

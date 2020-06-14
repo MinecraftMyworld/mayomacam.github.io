@@ -1,0 +1,25 @@
+PORT   STATE SERVICE
+88/tcp open  kerberos-sec
+| krb5-enum-users: 
+| Discovered Kerberos principals
+|     steve@megabank.local
+|     claire@megabank.local
+|     ryan@megabank.local
+|     paulo@megabank.local
+|     simon@megabank.local
+|     melanie@megabank.local
+|     stevie@megabank.local
+|     angela@megabank.local
+|     marcus@megabank.local
+|     fred@megabank.local
+|     annika@megabank.local
+|     zach@megabank.local
+|     sally@megabank.local
+|     claude@megabank.local
+|     per@megabank.local
+|     ulf@megabank.local
+|     annette@megabank.local
+|     gustavo@megabank.local
+|     abigail@megabank.local
+|     marko@megabank.local
+|_    felicia@megabank.local

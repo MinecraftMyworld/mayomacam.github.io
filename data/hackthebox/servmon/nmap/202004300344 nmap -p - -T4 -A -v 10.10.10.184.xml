@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?><nmaprun start="1588198463" profile_name="" xmloutputversion="1.04" scanner="nmap" version="7.80" startstr="Thu Apr 30 03:44:23 2020" args="nmap -p - -T4 -A -v 10.10.10.184"><scaninfo services="1-65535" protocol="tcp" numservices="65535" type="syn"></scaninfo><verbose level="1"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.80 ( https://nmap.org ) at 2020-04-30 03:44 IST
+NSE: Loaded 151 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 03:44
+Completed NSE at 03:44, 0.00s elapsed
+Initiating NSE at 03:44
+Completed NSE at 03:44, 0.00s elapsed
+Initiating NSE at 03:44
+Completed NSE at 03:44, 0.00s elapsed
+Initiating Ping Scan at 03:44
+Scanning 10.10.10.184 [4 ports]
+Completed Ping Scan at 03:44, 0.23s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 03:44
+Completed Parallel DNS resolution of 1 host. at 03:44, 0.01s elapsed
+Initiating SYN Stealth Scan at 03:44
+Scanning 10.10.10.184 [65535 ports]
+Discovered open port 21/tcp on 10.10.10.184
+Discovered open port 445/tcp on 10.10.10.184
+Discovered open port 135/tcp on 10.10.10.184
+Discovered open port 22/tcp on 10.10.10.184
+Discovered open port 139/tcp on 10.10.10.184
+Discovered open port 80/tcp on 10.10.10.184
+Discovered open port 6699/tcp on 10.10.10.184
+SYN Stealth Scan Timing: About 8.31% done; ETC: 03:50 (0:05:42 remaining)
+SYN Stealth Scan Timing: About 16.43% done; ETC: 03:50 (0:05:10 remaining)
+SYN Stealth Scan Timing: About 26.04% done; ETC: 03:50 (0:04:18 remaining)
+SYN Stealth Scan Timing: About 31.30% done; ETC: 03:51 (0:04:39 remaining)
+SYN Stealth Scan Timing: About 32.47% done; ETC: 03:52 (0:05:26 remaining)
+Discovered open port 49668/tcp on 10.10.10.184
+SYN Stealth Scan Timing: About 39.65% done; ETC: 03:52 (0:04:58 remaining)
+Discovered open port 5040/tcp on 10.10.10.184
+SYN Stealth Scan Timing: About 46.47% done; ETC: 03:52 (0:04:20 remaining)
+SYN Stealth Scan Timing: About 49.87% done; ETC: 03:53 (0:04:45 remaining)
+Increasing send delay for 10.10.10.184 from 0 to 5 due to max_successful_tryno increase to 5
+Increasing send delay for 10.10.10.184 from 5 to 10 due to max_successful_tryno increase to 6
+Warning: 10.10.10.184 giving up on port because retransmission cap hit (6).
+SYN Stealth Scan Timing: About 51.76% done; ETC: 03:55 (0:05:16 remaining)
+SYN Stealth Scan Timing: About 51.78% done; ETC: 03:56 (0:05:49 remaining)
+SYN Stealth Scan Timing: About 52.22% done; ETC: 03:57 (0:06:27 remaining)
+SYN Stealth Scan Timing: About 52.87% done; ETC: 03:59 (0:07:09 remaining)
+SYN Stealth Scan Timing: About 55.50% done; ETC: 04:02 (0:07:55 remaining)
+SYN Stealth Scan Timing: About 62.28% done; ETC: 04:02 (0:07:00 remaining)
+SYN Stealth Scan Timing: About 67.15% done; ETC: 04:02 (0:06:01 remaining)
+Discovered open port 49670/tcp on 10.10.10.184
+Discovered open port 49666/tcp on 10.10.10.184
+SYN Stealth Scan Timing: About 71.90% done; ETC: 04:02 (0:05:05 remaining)
+SYN Stealth Scan Timing: About 76.79% done; ETC: 04:02 (0:04:10 remaining)
+Discovered open port 49664/tcp on 10.10.10.184
+Discovered open port 6063/tcp on 10.10.10.184
+SYN Stealth Scan Timing: About 81.85% done; ETC: 04:02 (0:03:15 remaining)
+Discovered open port 49667/tcp on 10.10.10.184
+SYN Stealth Scan Timing: About 87.09% done; ETC: 04:02 (0:02:21 remaining)
+Discovered open port 7680/tcp on 10.10.10.184
+Discovered open port 49669/tcp on 10.10.10.184
+SYN Stealth Scan Timing: About 92.52% done; ETC: 04:03 (0:01:26 remaining)
+SYN Stealth Scan Timing: About 95.53% done; ETC: 04:04 (0:00:54 remaining)
+Discovered open port 5666/tcp on 10.10.10.184
+Discovered open port 49665/tcp on 10.10.10.184
+Completed SYN Stealth Scan at 04:05, 1289.61s elapsed (65535 total ports)
+Initiating Service scan at 04:05
+Scanning 18 services on 10.10.10.184
+Service scan Timing: About 38.89% done; ETC: 04:08 (0:01:25 remaining)
+Completed Service scan at 04:08, 163.20s elapsed (18 services on 1 host)
+Initiating OS detection (try #1) against 10.10.10.184
+Retrying OS detection (try #2) against 10.10.10.184
+Retrying OS detection (try #3) against 10.10.10.184
+Retrying OS detection (try #4) against 10.10.10.184
+Retrying OS detection (try #5) against 10.10.10.184
+Initiating Traceroute at 04:08
+Completed Traceroute at 04:08, 0.22s elapsed
+Initiating Parallel DNS resolution of 2 hosts. at 04:08
+Completed Parallel DNS resolution of 2 hosts. at 04:08, 0.01s elapsed
+NSE: Script scanning 10.10.10.184.
+Initiating NSE at 04:08
+NSE: [ftp-bounce] PORT response: 501 Server cannot accept argument.
+Completed NSE at 04:09, 53.86s elapsed
+Initiating NSE at 04:09
+Completed NSE at 04:09, 2.05s elapsed
+Initiating NSE at 04:09
+Completed NSE at 04:09, 0.00s elapsed
+Nmap scan report for 10.10.10.184
+Host is up (0.22s latency).
+Not shown: 65502 closed ports
+PORT      STATE    SERVICE       VERSION
+21/tcp    open     ftp           Microsoft ftpd
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_01-18-20  12:05PM       &lt;DIR&gt;          Users
+| ftp-syst: 
+|_  SYST: Windows_NT
+22/tcp    open     ssh           OpenSSH for_Windows_7.7 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 b9:89:04:ae:b6:26:07:3f:61:89:75:cf:10:29:28:83 (RSA)
+|   256 71:4e:6c:c0:d3:6e:57:4f:06:b8:95:3d:c7:75:57:53 (ECDSA)
+|_  256 15:38:bd:75:06:71:67:7a:01:17:9c:5c:ed:4c:de:0e (ED25519)
+80/tcp    open     http
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 404 Not Found
+|     Content-type: text/html
+|     Content-Length: 0
+|     Connection: close
+|     AuthInfo:
+|   GenericLines, HTTPOptions, RTSPRequest: 
+|     HTTP/1.1 200 OK
+|     Content-type: text/html
+|     Content-Length: 340
+|     Connection: close
+|     AuthInfo: 
+|     &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+|     &lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+|     &lt;head&gt;
+|     &lt;title&gt;&lt;/title&gt;
+|     &lt;script type="text/javascript"&gt;
+|     window.location.href = "Pages/login.htm";
+|     &lt;/script&gt;
+|     &lt;/head&gt;
+|     &lt;body&gt;
+|     &lt;/body&gt;
+|     &lt;/html&gt;
+|   GetRequest: 
+|     HTTP/1.1 408 Request Timeout
+|     Content-type: text/html
+|     Content-Length: 0
+|     Connection: close
+|_    AuthInfo:
+|_http-title: Site doesn't have a title (text/html).
+135/tcp   open     msrpc         Microsoft Windows RPC
+139/tcp   open     netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open     microsoft-ds?
+5040/tcp  open     unknown
+5205/tcp  filtered unknown
+5666/tcp  open     nrpe?
+6063/tcp  open     x11?
+6699/tcp  open     napster?
+6732/tcp  filtered unknown
+7680/tcp  open     pando-pub?
+14300/tcp filtered unknown
+14857/tcp filtered unknown
+24911/tcp filtered unknown
+25958/tcp filtered unknown
+26474/tcp filtered unknown
+39446/tcp filtered unknown
+39646/tcp filtered unknown
+40422/tcp filtered unknown
+48253/tcp filtered unknown
+49664/tcp open     msrpc         Microsoft Windows RPC
+49665/tcp open     msrpc         Microsoft Windows RPC
+49666/tcp open     msrpc         Microsoft Windows RPC
+49667/tcp open     msrpc         Microsoft Windows RPC
+49668/tcp open     msrpc         Microsoft Windows RPC
+49669/tcp open     msrpc         Microsoft Windows RPC
+49670/tcp open     msrpc         Microsoft Windows RPC
+56865/tcp filtered unknown
+58631/tcp filtered unknown
+58850/tcp filtered unknown
+63028/tcp filtered unknown
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.80%I=7%D=4/30%Time=5EAA0150%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,6B,"HTTP/1\.1\x20408\x20Request\x20Timeout\r\nContent-type:\x20t
+SF:ext/html\r\nContent-Length:\x200\r\nConnection:\x20close\r\nAuthInfo:\x
+SF:20\r\n\r\n")%r(HTTPOptions,1B4,"HTTP/1\.1\x20200\x20OK\r\nContent-type:
+SF:\x20text/html\r\nContent-Length:\x20340\r\nConnection:\x20close\r\nAuth
+SF:Info:\x20\r\n\r\n\xef\xbb\xbf&lt;!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3C//D
+SF:TD\x20XHTML\x201\.0\x20Transitional//EN\"\x20\"http://www\.w3\.org/TR/x
+SF:html1/DTD/xhtml1-transitional\.dtd\"&gt;\r\n\r\n&lt;html\x20xmlns=\"http://ww
+SF:w\.w3\.org/1999/xhtml\"&gt;\r\n&lt;head&gt;\r\n\x20\x20\x20\x20&lt;title&gt;&lt;/title&gt;\r
+SF:\n\x20\x20\x20\x20&lt;script\x20type=\"text/javascript\"&gt;\r\n\x20\x20\x20\
+SF:x20\x20\x20\x20\x20window\.location\.href\x20=\x20\"Pages/login\.htm\";
+SF:\r\n\x20\x20\x20\x20&lt;/script&gt;\r\n&lt;/head&gt;\r\n&lt;body&gt;\r\n&lt;/body&gt;\r\n&lt;/html
+SF:&gt;\r\n")%r(RTSPRequest,1B4,"HTTP/1\.1\x20200\x20OK\r\nContent-type:\x20t
+SF:ext/html\r\nContent-Length:\x20340\r\nConnection:\x20close\r\nAuthInfo:
+SF:\x20\r\n\r\n\xef\xbb\xbf&lt;!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x2
+SF:0XHTML\x201\.0\x20Transitional//EN\"\x20\"http://www\.w3\.org/TR/xhtml1
+SF:/DTD/xhtml1-transitional\.dtd\"&gt;\r\n\r\n&lt;html\x20xmlns=\"http://www\.w3
+SF:\.org/1999/xhtml\"&gt;\r\n&lt;head&gt;\r\n\x20\x20\x20\x20&lt;title&gt;&lt;/title&gt;\r\n\x2
+SF:0\x20\x20\x20&lt;script\x20type=\"text/javascript\"&gt;\r\n\x20\x20\x20\x20\x
+SF:20\x20\x20\x20window\.location\.href\x20=\x20\"Pages/login\.htm\";\r\n\
+SF:x20\x20\x20\x20&lt;/script&gt;\r\n&lt;/head&gt;\r\n&lt;body&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;\r\n
+SF:")%r(FourOhFourRequest,65,"HTTP/1\.1\x20404\x20Not\x20Found\r\nContent-
+SF:type:\x20text/html\r\nContent-Length:\x200\r\nConnection:\x20close\r\nA
+SF:uthInfo:\x20\r\n\r\n")%r(GenericLines,1B4,"HTTP/1\.1\x20200\x20OK\r\nCo
+SF:ntent-type:\x20text/html\r\nContent-Length:\x20340\r\nConnection:\x20cl
+SF:ose\r\nAuthInfo:\x20\r\n\r\n\xef\xbb\xbf&lt;!DOCTYPE\x20html\x20PUBLIC\x20
+SF:\"-//W3C//DTD\x20XHTML\x201\.0\x20Transitional//EN\"\x20\"http://www\.w
+SF:3\.org/TR/xhtml1/DTD/xhtml1-transitional\.dtd\"&gt;\r\n\r\n&lt;html\x20xmlns=
+SF:\"http://www\.w3\.org/1999/xhtml\"&gt;\r\n&lt;head&gt;\r\n\x20\x20\x20\x20&lt;title
+SF:&gt;&lt;/title&gt;\r\n\x20\x20\x20\x20&lt;script\x20type=\"text/javascript\"&gt;\r\n\x
+SF:20\x20\x20\x20\x20\x20\x20\x20window\.location\.href\x20=\x20\"Pages/lo
+SF:gin\.htm\";\r\n\x20\x20\x20\x20&lt;/script&gt;\r\n&lt;/head&gt;\r\n&lt;body&gt;\r\n&lt;/body
+SF:&gt;\r\n&lt;/html&gt;\r\n");
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/30%OT=21%CT=1%CU=42281%PV=Y%DS=2%DC=T%G=Y%TM=5EAA023
+OS:3%P=x86_64-pc-linux-gnu)SEQ(SP=FC%GCD=1%ISR=10E%TI=I%CI=I%II=I%SS=S%TS=U
+OS:)SEQ(SP=FC%GCD=1%ISR=10E%TI=I%CI=I%TS=U)OPS(O1=M54DNW8NNS%O2=M54DNW8NNS%
+OS:O3=M54DNW8%O4=M54DNW8NNS%O5=M54DNW8NNS%O6=M54DNNS)WIN(W1=FFFF%W2=FFFF%W3
+OS:=FFFF%W4=FFFF%W5=FFFF%W6=FF70)ECN(R=Y%DF=Y%T=80%W=FFFF%O=M54DNW8NNS%CC=N
+OS:%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%
+OS:F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y
+OS:%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%R
+OS:D=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%
+OS:S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPC
+OS:K=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=252 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: 3m18s
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2020-04-29T22:42:14
+|_  start_date: N/A
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+1   197.21 ms 10.10.14.1
+2   217.23 ms 10.10.10.184
+
+NSE: Script Post-scanning.
+Initiating NSE at 04:09
+Completed NSE at 04:09, 0.00s elapsed
+Initiating NSE at 04:09
+Completed NSE at 04:09, 0.00s elapsed
+Initiating NSE at 04:09
+Completed NSE at 04:09, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 1524.23 seconds
+           Raw packets sent: 83075 (3.660MB) | Rcvd: 73435 (2.943MB)
+</output><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.184"></address><hostnames></hostnames><ports><extraports count="65502" state="closed"></extraports><port protocol="tcp" portid="21"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft ftpd" method="probed" conf="10" name="ftp"></service></port><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="OpenSSH" name="ssh" extrainfo="protocol 2.0" version="for_Windows_7.7" conf="10" method="probed"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="probed" conf="10" name="http"></service></port><port protocol="tcp" portid="135"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="139"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows netbios-ssn" method="probed" conf="10" name="netbios-ssn"></service></port><port protocol="tcp" portid="445"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="microsoft-ds"></service></port><port protocol="tcp" portid="5040"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="tcp" portid="5205"><state reason="host-unreach" state="filtered" reason_ttl="64"></state><service></service></port><port protocol="tcp" portid="5666"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="nrpe"></service></port><port protocol="tcp" portid="6063"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="x11"></service></port><port protocol="tcp" portid="6699"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="napster"></service></port><port protocol="tcp" portid="6732"><state reason="host-unreach" state="filtered" reason_ttl="64"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="tcp" portid="7680"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="pando-pub"></service></port><port protocol="tcp" portid="14300"><state reason="no-response" state="filtered" reason_ttl="0"></state><service></service></port><port protocol="tcp" portid="14857"><state reason="host-unreach" state="filtered" reason_ttl="64"></state><service></service></port><port protocol="tcp" portid="24911"><state reason="no-response" state="filtered" reason_ttl="0"></state><service></service></port><port protocol="tcp" portid="25958"><state reason="host-unreach" state="filtered" reason_ttl="64"></state><service></service></port><port protocol="tcp" portid="26474"><state reason="no-response" state="filtered" reason_ttl="0"></state><service></service></port><port protocol="tcp" portid="39446"><state reason="no-response" state="filtered" reason_ttl="0"></state><service></service></port><port protocol="tcp" portid="39646"><state reason="host-unreach" state="filtered" reason_ttl="64"></state><service></service></port><port protocol="tcp" portid="40422"><state reason="host-unreach" state="filtered" reason_ttl="64"></state><service></service></port><port protocol="tcp" portid="48253"><state reason="host-unreach" state="filtered" reason_ttl="64"></state><service></service></port><port protocol="tcp" portid="49664"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="49665"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="49666"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="49667"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="49668"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="49669"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="49670"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="56865"><state reason="host-unreach" state="filtered" reason_ttl="64"></state><service></service></port><port protocol="tcp" portid="58631"><state reason="host-unreach" state="filtered" reason_ttl="64"></state><service></service></port><port protocol="tcp" portid="58850"><state reason="no-response" state="filtered" reason_ttl="0"></state><service></service></port><port protocol="tcp" portid="63028"><state reason="host-unreach" state="filtered" reason_ttl="64"></state><service></service></port></ports><os><portused state="open" portid="21" proto="tcp"></portused><portused state="closed" portid="1" proto="tcp"></portused><portused state="closed" portid="42281" proto="udp"></portused><osmatch line="78352" name="Microsoft Windows Longhorn" accuracy="95"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="Longhorn" accuracy="95"></osclass></osmatch><osmatch line="69486" name="Microsoft Windows 10 1703" accuracy="93"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="10" accuracy="93"></osclass></osmatch><osmatch line="74406" name="Microsoft Windows Server 2008 R2" accuracy="93"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2008" accuracy="93"></osclass></osmatch><osmatch line="74867" name="Microsoft Windows Server 2008 SP2" accuracy="93"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2008" accuracy="93"></osclass></osmatch><osmatch line="77079" name="Microsoft Windows 7 SP1" accuracy="93"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="7" accuracy="93"></osclass></osmatch><osmatch line="77563" name="Microsoft Windows 8.1 Update 1" accuracy="93"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="8" accuracy="93"></osclass></osmatch><osmatch line="77491" name="Microsoft Windows 8" accuracy="93"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="8" accuracy="93"></osclass></osmatch><osmatch line="69123" name="Microsoft Windows 10 1511" accuracy="92"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="10" accuracy="92"></osclass></osmatch><osmatch line="79652" name="Microsoft Windows Vista SP1" accuracy="92"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="Vista" accuracy="92"></osclass></osmatch><osmatch line="76424" name="Microsoft Windows 7 Enterprise SP1" accuracy="92"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="7" accuracy="92"></osclass></osmatch></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="252" values="BD00983F,1F3BA78F,AF93B33F,59587381,9A0F877B,4A52F18B" difficulty="Good luck!"></tcpsequence><ipidsequence values="6A2,6A3,6A4,6A5,6A6,6A7" class="Incremental"></ipidsequence><tcptssequence values="" class="none returned (unsupported)"></tcptssequence><trace port="80" proto="tcp"><hop rtt="197.21" host="" ipaddr="10.10.14.1" ttl="1"></hop><hop rtt="217.23" host="" ipaddr="10.10.10.184" ttl="2"></hop></trace></host><runstats><finished timestr="Thu Apr 30 04:09:47 2020" time="1588199987"></finished><hosts down="0" total="1" up="1"></hosts></runstats></nmaprun>

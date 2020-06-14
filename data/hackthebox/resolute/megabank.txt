@@ -1,0 +1,32 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-05-25 04:12 IST
+Nmap scan report for 10.10.10.169
+Host is up (0.26s latency).
+
+PORT    STATE SERVICE      VERSION
+445/tcp open  microsoft-ds Windows Server 2016 Standard 14393 microsoft-ds (workgroup: MEGABANK)
+Service Info: Host: RESOLUTE; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 2h30m50s, deviation: 4h02m30s, median: 10m50s
+| smb-os-discovery: 
+|   OS: Windows Server 2016 Standard 14393 (Windows Server 2016 Standard 6.3)
+|   Computer name: Resolute
+|   NetBIOS computer name: RESOLUTE\x00
+|   Domain name: megabank.local
+|   Forest name: megabank.local
+|   FQDN: Resolute.megabank.local
+|_  System time: 2020-05-24T15:53:30-07:00
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: required
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled and required
+| smb2-time: 
+|   date: 2020-05-24T22:53:31
+|_  start_date: 2020-05-24T21:12:06
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 21.57 seconds

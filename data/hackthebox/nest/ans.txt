@@ -1,0 +1,30 @@
+welcome.txt
+
+then 
+
+c.smith
+
+pass= xRxRxPANCAK3SxRxRx
+cd c.smith
+ cd "HQK Reporting"
+ 
+ hqk server password
+ WBQ201953D8w
+ 
+ Domain=nest.local
+Port=389
+BaseOu=OU=WBQ Users,OU=Production,DC=nest,DC=local
+User=Administrator
+Password=yyEq0Uvvhq2uQOcWG8peLoeRQehqip/fKdeG/kjEVb4=
+
+
+
+telnet 10.10.10.178 4386
+ 1744  smbclient -L \\\\10.10.10.178
+ 1745  smbclient  \\\\10.10.10.178\\Data
+ 1746  smbclient  \\\\10.10.10.178\\Data -U TempUser
+ 1747  clear
+ 1748  smbclient  \\\\10.10.10.178\\Users -U C.Smith
+ 
+ 
+ use hdlap.exe to edit and get password value from main function.

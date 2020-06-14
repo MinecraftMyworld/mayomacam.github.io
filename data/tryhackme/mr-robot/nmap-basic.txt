@@ -1,0 +1,31 @@
+<pre>[sudo] password for mayomacam: 
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-05-28 08:34 IST
+Initiating Parallel DNS resolution of 1 host. at 08:34
+Completed Parallel DNS resolution of 1 host. at 08:34, 0.01s elapsed
+Initiating SYN Stealth Scan at 08:34
+Scanning 10.10.10.18 [1000 ports]
+Discovered open port 80/tcp on 10.10.10.18
+Discovered open port 443/tcp on 10.10.10.18
+Completed SYN Stealth Scan at 08:34, 12.59s elapsed (1000 total ports)
+Initiating OS detection (try #1) against 10.10.10.18
+Retrying OS detection (try #2) against 10.10.10.18
+Nmap scan report for 10.10.10.18
+Host is up (0.16s latency).
+Not shown: 997 filtered ports
+PORT    STATE  SERVICE
+22/tcp  closed ssh
+80/tcp  open   http
+443/tcp open   https
+Device type: general purpose|specialized|storage-misc|broadband router|printer|WAP
+Running (JUST GUESSING): Linux 3.X|4.X|2.6.X|2.4.X (90%), Crestron 2-Series (89%), HP embedded (89%), Asus embedded (88%)
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4 cpe:/o:crestron:2_series cpe:/h:hp:p2000_g3 cpe:/o:linux:linux_kernel:2.6 cpe:/h:asus:rt-n56u cpe:/o:linux:linux_kernel:3.4 cpe:/o:linux:linux_kernel:2.4
+Aggressive OS guesses: Linux 3.10 - 3.13 (90%), Linux 3.10 - 4.11 (90%), Linux 3.12 (90%), Linux 3.13 (90%), Linux 3.13 or 4.2 (90%), Linux 3.2 - 3.5 (90%), Linux 3.2 - 3.8 (90%), Linux 4.2 (90%), Linux 4.4 (90%), Crestron XPanel control system (89%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 0.011 days (since Thu May 28 08:19:29 2020)
+TCP Sequence Prediction: Difficulty=262 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Read data files from: /usr/bin/../share/nmap
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 19.98 seconds
+           Raw packets sent: 2066 (94.634KB) | Rcvd: 39 (2.574KB</pre>

