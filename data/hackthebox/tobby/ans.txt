@@ -1,0 +1,39 @@
+<role rolename="admin-gui"/>
+   <role rolename="manager-script"/>
+   <user username="tomcat" password="$3cureP4s5w0rd123!" roles="admin-gui,manager-script"/>
+</tomcat-users>
+
+
+[+] Files (scripts) in /etc/profile.d/
+total 44
+drwxr-xr-x   2 root root 4096 Apr 23 07:35 .
+drwxr-xr-x 101 root root 4096 Jun 17 16:22 ..
+-rw-r--r--   1 root root   96 Dec  5  2019 01-locale-fix.sh
+-rw-r--r--   1 root root  825 Apr 10 14:57 apps-bin-path.sh
+-rw-r--r--   1 root root  729 Feb  2 05:31 bash_completion.sh
+-rw-r--r--   1 root root 1003 Aug 13  2019 cedilla-portuguese.sh
+-rw-r--r--   1 root root 1107 Nov  3  2019 gawk.csh
+-rw-r--r--   1 root root  757 Nov  3  2019 gawk.sh
+-rw-r--r--   1 root root 1557 Feb 17 14:11 Z97-byobu.sh
+-rwxr-xr-x   1 root root  873 Apr 16 15:23 Z99-cloudinit-warnings.sh
+-rwxr-xr-x   1 root root 3417 Apr 16 15:23 Z99-cloud-locale-test.sh
+
+
+[+] .sh files in path
+/usr/bin/rescan-scsi-bus.sh
+/usr/bin/gettext.sh
+
+
+[+] Looking Cloud-Init conf file
+Found readable /etc/cloud/cloud.cfg
+     lock_passwd: True
+     groups: [adm, audio, cdrom, dialout, dip, floppy, lxd, netdev, plugdev, sudo, video]
+     sudo: ["ALL=(ALL) NOPASSWD:ALL"]
+
+
+
+
+    
+    
+
+

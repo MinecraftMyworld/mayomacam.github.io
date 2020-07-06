@@ -1,0 +1,28 @@
+┌─[mayomacam@parrot]─[~]
+└──╼ $wfuzz -c -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt --hc 404,403 -u "http://10.10.10.194/files/FUZZ" -t 100
+
+Warning: Pycurl is not compiled against Openssl. Wfuzz might not work correctly when fuzzing SSL sites. Check Wfuzz's documentation for more information.
+
+********************************************************
+* Wfuzz 2.4.5 - The Web Fuzzer                         *
+********************************************************
+
+Target: http://10.10.10.194/files/FUZZ
+Total requests: 220560
+
+===================================================================
+ID           Response   Lines    Word     Chars       Payload        
+===================================================================
+
+000000063:   301        9 L      28 W     320 Ch      "archive"      
+000003473:   200        150 L    375 W    6507 Ch     "statement"    
+
+Total time: 616.8924
+Processed Requests: 220560
+Filtered Requests: 220558
+Requests/sec.: 357.5339
+
+┌─[mayomacam@parrot]─[~]
+└──╼ $
+
+

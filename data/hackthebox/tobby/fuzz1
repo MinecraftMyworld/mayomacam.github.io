@@ -1,0 +1,35 @@
+┌─[mayomacam@parrot]─[~]
+└──╼ $wfuzz -c -w /usr/share/wordlists/dirb/big.txt -z list,txt-php-html -u http://10.10.10.194/FUZZ.FUZ2Z --hc 404,403 -t 100
+
+Warning: Pycurl is not compiled against Openssl. Wfuzz might not work correctly when fuzzing SSL sites. Check Wfuzz's documentation for more information.
+
+********************************************************
+* Wfuzz 2.4.5 - The Web Fuzzer                         *
+********************************************************
+
+Target: http://10.10.10.194/FUZZ.FUZ2Z
+Total requests: 61407
+
+===================================================================
+ID           Response   Lines    Word     Chars       Payload        
+===================================================================
+
+000003043:   200        35 L     237 W    1574 Ch     "Readme - txt" 
+000028688:   200        373 L    938 W    14175 Ch    "index - php"  
+000037628:   200        0 L      0 W      0 Ch        "news - php"   
+
+Total time: 199.8666
+Processed Requests: 61407
+Filtered Requests: 61404
+Requests/sec.: 307.2398
+
+┌─[mayomacam@parrot]─[~]
+└──╼ $dir
+dir             dirbuster       dirmngr-client  dirsplit
+dirb            dircolors       dirname         
+dirb-gendict    dirmngr         dirs            
+┌─[mayomacam@parrot]─[~]
+└──╼ $man dirs
+No manual entry for dirs
+┌─[✗]─[mayomacam@parrot]─[~]
+└──╼ $

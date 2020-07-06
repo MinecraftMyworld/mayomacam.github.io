@@ -1,0 +1,44 @@
+┌─[mayomacam@parrot]─[~]
+└──╼ $nmap -p 88 -v --script krb5-enum-users --script-args krb5-enum-users.realm='EGOTISTICAL-BANK.LOCAL',userdb=/home/mayomacam/hackthebox/sauna/wordlist.txt 10.10.10.175
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-06-17 18:05 IST
+NSE: Loaded 1 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 18:05
+Completed NSE at 18:05, 0.00s elapsed
+Initiating Ping Scan at 18:05
+Scanning 10.10.10.175 [2 ports]
+Completed Ping Scan at 18:05, 0.21s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 18:05
+Completed Parallel DNS resolution of 1 host. at 18:05, 0.01s elapsed
+Initiating Connect Scan at 18:05
+Scanning 10.10.10.175 [1 port]
+Discovered open port 88/tcp on 10.10.10.175
+Completed Connect Scan at 18:05, 0.21s elapsed (1 total ports)
+NSE: Script scanning 10.10.10.175.
+Initiating NSE at 18:05
+NSE Timing: About 11.93% done; ETC: 18:10 (0:03:49 remaining)
+NSE Timing: About 24.97% done; ETC: 18:09 (0:03:03 remaining)
+NSE Timing: About 37.11% done; ETC: 18:09 (0:02:34 remaining)
+NSE Timing: About 48.74% done; ETC: 18:10 (0:02:17 remaining)
+NSE Timing: About 61.91% done; ETC: 18:10 (0:01:38 remaining)
+NSE Timing: About 74.01% done; ETC: 18:10 (0:01:07 remaining)
+Completed NSE at 18:09, 241.90s elapsed
+Nmap scan report for 10.10.10.175
+Host is up (0.21s latency).
+
+PORT   STATE SERVICE
+88/tcp open  kerberos-sec
+| krb5-enum-users: 
+| Discovered Kerberos principals
+|     HSmith@EGOTISTICAL-BANK.LOCAL
+|     hSmith@EGOTISTICAL-BANK.LOCAL
+|     fSmith@EGOTISTICAL-BANK.LOCAL
+|_    FSmith@EGOTISTICAL-BANK.LOCAL
+
+NSE: Script Post-scanning.
+Initiating NSE at 18:09
+Completed NSE at 18:09, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 242.85 seconds
+┌─[mayomacam@parrot]─[~]
+└──╼ $
